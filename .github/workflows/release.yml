@@ -1,0 +1,22 @@
+name: Publish installer release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create release with installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          VER="${TAG#v}"
+          cp NewsPulse-Setup.exe "NewsPulse-Setup-${VER}.exe"
+          SHA=$(sha256sum NewsPulse-Setup.exe | cut -d' ' -f1 | tr a-f A-F)
+          printf 'Windows 10/11 installer (64-bit).\n\nSHA-256: %s\n\nNot code-signed yet: if SmartScreen appears, click More info, then Run anyway.\n' "$SHA" > notes.md
+          gh release create "$TAG" NewsPulse-Setup.exe "NewsPulse-Setup-${VER}.exe" \
+            --title "NewsPulse ${VER}" --notes-file notes.md --latest
