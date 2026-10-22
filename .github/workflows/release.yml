@@ -1,7 +1,8 @@
 name: Publish installer release
 on:
   push:
-    tags: ['v*']
+    branches: [release-files]
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -12,9 +13,9 @@ jobs:
       - name: Create release with installer
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.ref_name }}
         run: |
-          VER="${TAG#v}"
+          VER="$(tr -d '[:space:]' < VERSION)"
+          TAG="v${VER}"
           cp NewsPulse-Setup.exe "NewsPulse-Setup-${VER}.exe"
           SHA=$(sha256sum NewsPulse-Setup.exe | cut -d' ' -f1 | tr a-f A-F)
           printf 'Windows 10/11 installer (64-bit).\n\nSHA-256: %s\n\nNot code-signed yet: if SmartScreen appears, click More info, then Run anyway.\n' "$SHA" > notes.md
