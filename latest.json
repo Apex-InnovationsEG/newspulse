@@ -1,9 +1,9 @@
 {
-  "version": "0.7.1",
+  "version": "0.7.2",
   "url": "https://github.com/Apex-InnovationsEG/newspulse/releases/latest/download/NewsPulse-Setup.exe",
-  "size": 72441030,
-  "sha256": "E89594A1AA3BDA3F08EA05FAEAC879CCE8C524F8FA7D95B12D968BA389150CE0",
-  "notes": "NewsPulse 0.7.1: six looks, each with the Aurora glow; a full backup and restore, encrypted with your password; syncing without a browser window; platforms sync in a fixed order; the right pictures and authors on LinkedIn and Facebook posts; feeds found for more news sites; a new Advanced settings tab.",
-  "published": "2026-10-25T09:08:25+00:00",
-  "sig": "NxvUUydhuYFO24Ft6VDreIkH6llgM0a66EfNAvWkOu0YUtkWao8zLpgzmJkRjPeRcCdg/Tsp09aSK87P+UPjBQ=="
+  "size": 72446540,
+  "sha256": "BB5F903497DB0EC4249E4A84D647DC8802CB7EA3011C31F37A9EE3464F3316AB",
+  "notes": "NewsPulse 0.7.2: signing in to Facebook and LinkedIn now works when they ask you to verify with Google, Apple, Microsoft or an 'are you human' check.",
+  "published": "2026-10-25T11:48:49+00:00",
+  "sig": "8SUbpiWSX2m38/RFMaEn/NcjOAyftMF9NoKHAwLx1Dui9plWlgHLTnaWaFEPPhF4pwaifcp2R8AppEFwGUqtAA=="
 }
