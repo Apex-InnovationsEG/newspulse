@@ -134,6 +134,24 @@ details p { margin-top: 12px; color: var(--muted); }
 footer .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; padding-block: 30px; }
 footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px; font-weight: 600; }
 .small { font-size: 14px; color: var(--muted); }
+/* pricing (batch 13, item 20) */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.compare-wrap { max-width: 860px; overflow-x: auto; background: var(--card); border: 2px solid var(--ink); border-radius: 14px; box-shadow: 6px 6px 0 var(--ink); }
+.compare { width: 100%; border-collapse: collapse; font-size: 15px; }
+.compare th, .compare td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+.compare thead th { font-family: var(--display); font-weight: 800; font-size: 17px; border-bottom: 2px solid var(--ink); }
+.compare tbody th { font-weight: 700; }
+.compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: 0; }
+.compare .compare-pro { background: var(--feed); }
+.prices { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 20px; }
+.price { position: relative; display: flex; flex-direction: column; gap: 6px; padding: 22px 20px; background: var(--card); border: 2px solid var(--ink); border-radius: 14px; box-shadow: 5px 5px 0 var(--ink); }
+.price h3 { font-weight: 800; font-size: 19px; }
+.price .amount { font-family: var(--display); font-weight: 900; font-size: 40px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.price .per { color: var(--muted); font-size: 14px; flex: 1 1 auto; }
+.price .btn { margin-top: 10px; justify-content: center; }
+.price .btn[hidden] { display: none; }
+.price-best { background: #FFF6CF; box-shadow: 7px 7px 0 var(--feed-deep); border-width: 3px; }
+.best { position: absolute; top: -14px; left: 18px; padding: 3px 10px; border: 2px solid var(--ink); border-radius: 999px; background: var(--feed); font-weight: 800; font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
 </style>
 </head>
 <body>
@@ -148,6 +166,7 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
       <a href="#features">Features</a>
       <a href="#privacy">Privacy</a>
       <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
     </div>
     <a class="btn btn-yellow" href="#download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download</a>
@@ -164,7 +183,7 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
         <a class="btn btn-primary" href="#download"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download for Windows</a>
         <a class="btn btn-plain" href="#how">See how it works</a>
       </div>
-      <span class="meta">Version 0.6.0 · 55.0 MB · no admin rights needed</span>
+      <span class="meta">Version 0.7.0 · 71.9 MB · no admin rights needed</span>
     </div>
 
     <div class="app" aria-hidden="true">
@@ -248,16 +267,50 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
     </ol>
   </section>
 
+  <section id="pricing" class="wrap section" aria-labelledby="pricing-h">
+    <div class="section-head">
+      <h2 id="pricing-h">Free to use. Pro when you want more.</h2>
+      <p>Every new install starts with 14 days of Pro, no card needed. After that NewsPulse stays free, and nothing you collected is ever deleted.</p>
+    </div>
+    <div class="compare-wrap">
+      <table class="compare">
+        <caption class="sr-only">What Free and Pro include</caption>
+        <thead><tr><th scope="col">What you get</th><th scope="col">Free</th><th scope="col" class="compare-pro">Pro</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Sources</th><td>20</td><td>Unlimited</td></tr>
+          <tr><th scope="row">X, LinkedIn and Facebook accounts</th><td>3 each</td><td>Unlimited</td></tr>
+          <tr><th scope="row">Topics</th><td>3</td><td>Unlimited</td></tr>
+          <tr><th scope="row">Saved posts</th><td>10</td><td>Unlimited</td></tr>
+          <tr><th scope="row">Events in Event Pulse</th><td>5</td><td>Unlimited, with event pages</td></tr>
+          <tr><th scope="row">History kept</th><td>30 days</td><td>Up to a year</td></tr>
+          <tr><th scope="row">Search</th><td>Quick search</td><td>Filters and saved searches</td></tr>
+          <tr><th scope="row">Looks</th><td>Basic and Playful</td><td>Every look and theme</td></tr>
+          <tr><th scope="row">Live</th><td>Live now</td><td>Starting soon reminders and recommended streams</td></tr>
+          <tr><th scope="row">Automatic sync and notifications</th><td>Yes</td><td>Yes</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="prices" aria-label="Pro prices in US dollars">
+      <li class="price"><h3>Monthly</h3><p class="amount">$4</p><p class="per">a month</p><a class="btn btn-plain get-pro" data-plan="monthly" href="#pricing" hidden>Get Pro</a></li>
+      <li class="price"><h3>3 months</h3><p class="amount">$10</p><p class="per">$3.33 a month</p><a class="btn btn-plain get-pro" data-plan="3-months" href="#pricing" hidden>Get Pro</a></li>
+      <li class="price"><h3>6 months</h3><p class="amount">$18</p><p class="per">$3 a month</p><a class="btn btn-plain get-pro" data-plan="6-months" href="#pricing" hidden>Get Pro</a></li>
+      <li class="price price-best"><span class="best">Best value</span><h3>Yearly</h3><p class="amount">$30</p><p class="per">$2.50 a month</p><a class="btn btn-primary get-pro" data-plan="yearly" href="#pricing" hidden>Get Pro</a></li>
+      <li class="price"><h3>2 years</h3><p class="amount">$50</p><p class="per">$2.08 a month</p><a class="btn btn-plain get-pro" data-plan="2-years" href="#pricing" hidden>Get Pro</a></li>
+      <li class="price"><h3>Lifetime</h3><p class="amount">$79</p><p class="per">once, every 1.x and 2.x version</p><a class="btn btn-plain get-pro" data-plan="lifetime" href="#pricing" hidden>Get Pro</a></li>
+    </ul>
+    <p class="note" id="store-note">Pro goes on sale soon. Until then, enjoy the 14-day trial that comes with every install.</p>
+  </section>
+
   <section id="download" class="wrap section" style="padding-top:0">
     <div class="dl">
       <div class="dl-info">
-        <h2>Download NewsPulse 0.6.0</h2>
+        <h2>Download NewsPulse 0.7.0</h2>
         <dl class="facts">
-          <dt>File</dt><dd>NewsPulse-Setup-0.6.0.exe</dd>
-          <dt>Size</dt><dd>55.0 MB</dd>
+          <dt>File</dt><dd>NewsPulse-Setup-0.7.0.exe</dd>
+          <dt>Size</dt><dd>71.9 MB</dd>
           <dt>Works on</dt><dd>Windows 10 and 11</dd>
           <dt>SHA-256</dt>
-          <dd class="hash"><code id="sha">9F7D074618D0329A94DD9031AB00641549D09D1F25F52619013812C471A20290</code><button class="copy" id="copy-sha" type="button">Copy</button></dd>
+          <dd class="hash"><code id="sha">8A010CE895F6DB0E0F28007F5055E086FDD169F26A80C8C34A8212E70B9E9036</code><button class="copy" id="copy-sha" type="button">Copy</button></dd>
         </dl>
       </div>
       <div class="dl-side">
@@ -275,7 +328,8 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
         <details><summary>Which computers does it run on?</summary><p>Windows 10 and 11. Mac and Linux aren't available yet.</p></details>
         <details><summary>Will it post or like anything for me?</summary><p>No. NewsPulse only reads. It never posts, likes, comments or sends messages.</p></details>
         <details><summary>I forgot my password. What now?</summary><p>On the sign-in screen choose "Forgot password? Use your recovery code" and set a new one.</p></details>
-        <details><summary>How do I update to a new version?</summary><p>Download the new setup and run it. Your feed, sources and settings stay as they are.</p></details>
+        <details><summary>How do I update to a new version?</summary><p>NewsPulse checks for new versions itself and tells you when one is ready; it installs when you say so, never in the middle of a sync. You can also download the new setup and run it. Your feed, sources and settings stay as they are.</p></details>
+        <details><summary>What happens when the trial ends?</summary><p>NewsPulse switches to Free. Everything you collected stays; above the Free limits it is kept read-only until you remove some or get Pro.</p></details>
       </div>
     </div>
   </section>
@@ -284,8 +338,8 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
 <footer>
   <div class="wrap">
     <span class="logo-word" style="font-size:20px">News<span>Pulse</span></span>
-    <span class="small">Early access build 0.6.0 · © 2026 <a href="https://apex-innovationseg.github.io/">Apex Innovations</a></span>
-    <div class="links"><a href="#download">Download</a><a href="#privacy">Privacy</a><a href="#faq">FAQ</a></div>
+    <span class="small">Early access build 0.7.0 · © 2026 <a href="https://apex-innovationseg.github.io/">Apex Innovations</a></span>
+    <div class="links"><a href="#download">Download</a><a href="#pricing">Pricing</a><a href="#privacy">Privacy</a><a href="#faq">FAQ</a></div>
   </div>
 </footer>
 
@@ -301,6 +355,17 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
     btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download for Windows';
   } else {
     btn.addEventListener("click", (e) => e.preventDefault());
+  }
+  // Pro checkout (item 20): the store's address once it is live. Empty: the Get Pro buttons stay hidden.
+  const STORE_URL = "";
+  if (STORE_URL) {
+    for (const a of document.querySelectorAll(".get-pro")) {
+      a.href = STORE_URL + (STORE_URL.includes("?") ? "&" : "?") + "plan=" + a.dataset.plan;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.hidden = false;
+    }
+    document.getElementById("store-note").hidden = true;
   }
   document.getElementById("copy-sha").addEventListener("click", async (e) => {
     const b = e.currentTarget;
