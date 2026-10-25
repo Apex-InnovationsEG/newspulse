@@ -1,0 +1,223 @@
+{
+  "v": 1,
+  "updated": "2026-10-24",
+  "feeds": {
+    "masrawy.com": [
+      {
+        "url": "https://www.masrawy.com/rss/feed/25/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+        "title": "Masrawy: News"
+      }
+    ],
+    "almasryalyoum.com": [
+      {
+        "url": "https://www.almasryalyoum.com/rss/rssfeeds",
+        "title": "Al-Masry Al-Youm"
+      }
+    ],
+    "egyptindependent.com": [
+      {
+        "url": "https://www.egyptindependent.com/feed/",
+        "title": "Egypt Independent"
+      }
+    ],
+    "elbalad.news": [
+      {
+        "url": "https://www.elbalad.news/rss.aspx",
+        "title": "Sada El Balad"
+      }
+    ],
+    "dailynewsegypt.com": [
+      {
+        "url": "https://www.dailynewsegypt.com/feed/",
+        "title": "Daily News Egypt"
+      }
+    ],
+    "vetogate.com": [
+      {
+        "url": "https://www.vetogate.com/rss.aspx",
+        "title": "Veto Gate"
+      }
+    ],
+    "alarabiya.net": [
+      {
+        "url": "https://www.alarabiya.net/feed/rss2/ar.xml",
+        "title": "Al Arabiya"
+      }
+    ],
+    "english.alarabiya.net": [
+      {
+        "url": "https://english.alarabiya.net/feed/rss2/en.xml",
+        "title": "Al Arabiya English"
+      }
+    ],
+    "skynewsarabia.com": [
+      {
+        "url": "https://www.skynewsarabia.com/rss.xml",
+        "title": "Sky News Arabia"
+      }
+    ],
+    "bbc.com/arabic": [
+      {
+        "url": "https://feeds.bbci.co.uk/arabic/rss.xml",
+        "title": "BBC News Arabic"
+      }
+    ],
+    "arabic.rt.com": [
+      {
+        "url": "https://arabic.rt.com/rss/",
+        "title": "RT Arabic"
+      }
+    ],
+    "rtarabic.com": [
+      {
+        "url": "https://arabic.rt.com/rss/",
+        "title": "RT Arabic"
+      }
+    ],
+    "france24.com/ar": [
+      {
+        "url": "https://www.france24.com/ar/rss",
+        "title": "France 24 Arabic"
+      }
+    ],
+    "dw.com/ar": [
+      {
+        "url": "https://rss.dw.com/rdf/rss-ar-all",
+        "title": "DW Arabic"
+      }
+    ],
+    "aawsat.com": [
+      {
+        "url": "https://aawsat.com/feed",
+        "title": "Asharq Al-Awsat"
+      }
+    ],
+    "independentarabia.com": [
+      {
+        "url": "https://www.independentarabia.com/rss.xml",
+        "title": "Independent Arabia"
+      }
+    ],
+    "arabic.euronews.com": [
+      {
+        "url": "https://arabic.euronews.com/rss",
+        "title": "Euronews Arabic"
+      }
+    ],
+    "thenationalnews.com": [
+      {
+        "url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml",
+        "title": "The National"
+      }
+    ],
+    "al-monitor.com": [
+      {
+        "url": "https://www.al-monitor.com/rss",
+        "title": "Al-Monitor"
+      }
+    ],
+    "bbc.com": [
+      {
+        "url": "https://feeds.bbci.co.uk/news/rss.xml",
+        "title": "BBC News"
+      }
+    ],
+    "bbc.co.uk": [
+      {
+        "url": "https://feeds.bbci.co.uk/news/rss.xml",
+        "title": "BBC News"
+      }
+    ],
+    "theguardian.com": [
+      {
+        "url": "https://www.theguardian.com/world/rss",
+        "title": "The Guardian: World"
+      }
+    ],
+    "cnn.com": [
+      {
+        "url": "http://rss.cnn.com/rss/edition.rss",
+        "title": "CNN"
+      }
+    ],
+    "nytimes.com": [
+      {
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "title": "The New York Times"
+      }
+    ],
+    "npr.org": [
+      {
+        "url": "https://feeds.npr.org/1001/rss.xml",
+        "title": "NPR News"
+      }
+    ],
+    "news.sky.com": [
+      {
+        "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+        "title": "Sky News: World"
+      }
+    ],
+    "france24.com/en": [
+      {
+        "url": "https://www.france24.com/en/rss",
+        "title": "France 24"
+      }
+    ],
+    "france24.com": [
+      {
+        "url": "https://www.france24.com/en/rss",
+        "title": "France 24"
+      }
+    ],
+    "dw.com": [
+      {
+        "url": "https://rss.dw.com/rdf/rss-en-all",
+        "title": "DW"
+      }
+    ],
+    "independent.co.uk": [
+      {
+        "url": "https://www.independent.co.uk/news/world/rss",
+        "title": "The Independent: World"
+      }
+    ],
+    "cbsnews.com": [
+      {
+        "url": "https://www.cbsnews.com/latest/rss/main",
+        "title": "CBS News"
+      }
+    ],
+    "abcnews.go.com": [
+      {
+        "url": "https://abcnews.go.com/abcnews/topstories",
+        "title": "ABC News"
+      }
+    ],
+    "abcnews.com": [
+      {
+        "url": "https://abcnews.go.com/abcnews/topstories",
+        "title": "ABC News"
+      }
+    ],
+    "euronews.com": [
+      {
+        "url": "https://www.euronews.com/rss",
+        "title": "Euronews"
+      }
+    ],
+    "nbcnews.com": [
+      {
+        "url": "https://feeds.nbcnews.com/nbcnews/public/news",
+        "title": "NBC News"
+      }
+    ],
+    "foxnews.com": [
+      {
+        "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+        "title": "Fox News"
+      }
+    ]
+  },
+  "sig": "I23KpFZ8ax3qfJsQd1UkdC2+tOauMMRX/u/0NkOHKo8ZMQ3YW+S2H0TAUZ7nY8PlrnF5uRBL4fPn94Xes7yZDA=="
+}
