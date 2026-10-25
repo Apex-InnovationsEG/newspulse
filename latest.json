@@ -1,9 +1,9 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "url": "https://github.com/Apex-InnovationsEG/newspulse/releases/latest/download/NewsPulse-Setup.exe",
-  "size": 71933592,
-  "sha256": "8A010CE895F6DB0E0F28007F5055E086FDD169F26A80C8C34A8212E70B9E9036",
-  "notes": "NewsPulse 0.7.0: Free and Pro plans with a 14-day Pro trial; in-app updates; Save a link; a first-run setup wizard; one sync queue; profile pictures on X, LinkedIn and Facebook posts; clickable links in posts; hide live streams; a custom run window of 1 to 24 hours.",
-  "published": "2026-10-25T03:15:23+00:00",
-  "sig": "aOz8WuhCdfoqngjeqDPZM+upHf6EoGGgUi3HUL/rlAaQtBxqSxGi8IgBdi2/52SR2pXr/gTckODDdv350uX1Cg=="
+  "size": 72441030,
+  "sha256": "E89594A1AA3BDA3F08EA05FAEAC879CCE8C524F8FA7D95B12D968BA389150CE0",
+  "notes": "NewsPulse 0.7.1: six looks, each with the Aurora glow; a full backup and restore, encrypted with your password; syncing without a browser window; platforms sync in a fixed order; the right pictures and authors on LinkedIn and Facebook posts; feeds found for more news sites; a new Advanced settings tab.",
+  "published": "2026-10-25T09:08:25+00:00",
+  "sig": "NxvUUydhuYFO24Ft6VDreIkH6llgM0a66EfNAvWkOu0YUtkWao8zLpgzmJkRjPeRcCdg/Tsp09aSK87P+UPjBQ=="
 }
