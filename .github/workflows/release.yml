@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Create release with installer
+      - name: Create release with installer and latest.json
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -18,6 +18,12 @@ jobs:
           TAG="v${VER}"
           cp NewsPulse-Setup.exe "NewsPulse-Setup-${VER}.exe"
           SHA=$(sha256sum NewsPulse-Setup.exe | cut -d' ' -f1 | tr a-f A-F)
-          printf 'Windows 10/11 installer (64-bit).\n\nSHA-256: %s\n\nNot code-signed yet: if SmartScreen appears, click More info, then Run anyway.\n' "$SHA" > notes.md
-          gh release create "$TAG" NewsPulse-Setup.exe "NewsPulse-Setup-${VER}.exe" \
+          {
+            echo "Windows 10/11 installer (64-bit)."
+            echo
+            echo "SHA-256: ${SHA}"
+            echo
+            echo "Not code-signed yet: if SmartScreen appears, click More info, then Run anyway."
+          } > notes.md
+          gh release create "$TAG" NewsPulse-Setup.exe "NewsPulse-Setup-${VER}.exe" latest.json \
             --title "NewsPulse ${VER}" --notes-file notes.md --latest
