@@ -1,9 +1,9 @@
 {
-  "version": "0.7.2",
+  "version": "0.7.3",
   "url": "https://github.com/Apex-InnovationsEG/newspulse/releases/latest/download/NewsPulse-Setup.exe",
-  "size": 72446540,
-  "sha256": "BB5F903497DB0EC4249E4A84D647DC8802CB7EA3011C31F37A9EE3464F3316AB",
-  "notes": "NewsPulse 0.7.2: signing in to Facebook and LinkedIn now works when they ask you to verify with Google, Apple, Microsoft or an 'are you human' check.",
-  "published": "2026-10-25T11:48:49+00:00",
-  "sig": "8SUbpiWSX2m38/RFMaEn/NcjOAyftMF9NoKHAwLx1Dui9plWlgHLTnaWaFEPPhF4pwaifcp2R8AppEFwGUqtAA=="
+  "size": 72371227,
+  "sha256": "572BBD5699CF00741DB04A7D228EEADDB686C4DA3B1C5CB5E2AA1EE99EBB1A29",
+  "notes": "NewsPulse 0.7.3: sign in to Facebook and LinkedIn in a normal browser window, so Google, Apple and Microsoft verification works; a tidier Settings page with an Advanced menu; a clearer Check for updates with a Download and install button; a slimmer update banner; Reddit and Telegram removed.",
+  "published": "2026-10-26T03:42:32+00:00",
+  "sig": "KgxMu1rbJWqLQ6o9np+6jtEGjipWmMPfKW2UeAomi2NvE+AbaJSQ64xKFVlC3F2GmUOnXAMIirrSKumqac5vAQ=="
 }
