@@ -55,6 +55,7 @@ code { font-family: var(--mono); font-size: 14px; overflow-wrap: anywhere; backg
 .night { background: var(--night); color: #FFFFFF; }
 .night .doc { padding-block: 40px; }
 .night p { color: var(--night-text); }
+.night a { color: #FFFFFF; }
 .night h2 { font-weight: 900; font-size: clamp(26px, 4vw, 36px); }
 .night h2 span { color: var(--feed); }
 footer .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; padding-block: 30px; }
@@ -101,7 +102,7 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
       <h2 id="drive"><i class="tag" style="background:var(--topics)"></i>What goes to your Google Drive (only if you sync)</h2>
       <p>Sync is optional. You can use NewsPulse without Google.</p>
       <ul>
-        <li><strong>Encrypted on your PC first.</strong> Your setup is encrypted (AES-256-GCM, with a key made from your sync password) before it leaves the PC. Google, and we, can't read it.</li>
+        <li><strong>Encrypted on your PC first.</strong> Your setup is encrypted (AES-256-GCM, with a key made from your sync password) before it leaves the PC. Google, and we, can't read it. Only each copy's date, size and the name of the PC that saved it can be read, so another PC can say which copy it found.</li>
         <li><strong>In your own Drive, in its hidden app folder.</strong> The copy goes to your Google Drive's hidden app data folder, which only NewsPulse can see. It doesn't appear in your Drive's file list and isn't shared with anyone.</li>
         <li><strong>What it holds:</strong> your setup (settings, topics, sources, saved items and notes, lists, calendar, Event Pulse pages, Markets list, look), your API keys and tokens, and your licence key. It keeps the last 30 versions so you can go back.</li>
         <li><strong>What it never holds:</strong> your NewsPulse password, your sync password, your Google sign-in, LinkedIn and Facebook sign-ins, the trial record, caches and pictures.</li>
@@ -135,7 +136,7 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
   <section class="night band">
     <div class="wrap doc">
       <h2>Questions? <span>Ask us.</span></h2>
-      <p>Email <strong><a href="mailto:ApexNewsPulse@gmail.com">ApexNewsPulse@gmail.com</a></strong>. If this policy changes, the new version is posted on this page with a new date.</p>
+      <p>Email <a href="mailto:ApexNewsPulse@gmail.com"><strong>ApexNewsPulse@gmail.com</strong></a>. If this policy changes, the new version is posted on this page with a new date.</p>
     </div>
   </section>
 </main>
