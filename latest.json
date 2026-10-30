@@ -1,9 +1,9 @@
 {
-  "version": "0.7.3",
+  "version": "0.7.4",
   "url": "https://github.com/Apex-InnovationsEG/newspulse/releases/latest/download/NewsPulse-Setup.exe",
-  "size": 72371227,
-  "sha256": "572BBD5699CF00741DB04A7D228EEADDB686C4DA3B1C5CB5E2AA1EE99EBB1A29",
-  "notes": "NewsPulse 0.7.3: sign in to Facebook and LinkedIn in a normal browser window, so Google, Apple and Microsoft verification works; a tidier Settings page with an Advanced menu; a clearer Check for updates with a Download and install button; a slimmer update banner; Reddit and Telegram removed.",
-  "published": "2026-10-26T03:42:32+00:00",
-  "sig": "KgxMu1rbJWqLQ6o9np+6jtEGjipWmMPfKW2UeAomi2NvE+AbaJSQ64xKFVlC3F2GmUOnXAMIirrSKumqac5vAQ=="
+  "size": 72829784,
+  "sha256": "DD294742CBEE32553035CA548104285FD2415DC790EF7C7FC0FD614A63628A0F",
+  "notes": "NewsPulse 0.7.4: sign in with Google and keep your setup synced and backed up in your own Google Drive (encrypted); a Markets panel with currencies, gold and silver; custom lists for saved posts; sharper hero pictures; videos that adapt to company networks; feeds found for 250+ news sites; clearer loading signs.",
+  "published": "2026-10-30T00:21:04+00:00",
+  "sig": "ddZ2qjstl4u0dMKecdTYRGrMwfxfISssRDS7sc0NsSRhnsMk0vbxwV3podjiwfpxtxCtGXBZp3KkpTKtm39RDQ=="
 }
