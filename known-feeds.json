@@ -1,223 +1,1708 @@
 {
-  "v": 1,
-  "updated": "2026-10-24",
-  "feeds": {
-    "masrawy.com": [
-      {
-        "url": "https://www.masrawy.com/rss/feed/25/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
-        "title": "Masrawy: News"
-      }
-    ],
-    "almasryalyoum.com": [
-      {
-        "url": "https://www.almasryalyoum.com/rss/rssfeeds",
-        "title": "Al-Masry Al-Youm"
-      }
-    ],
-    "egyptindependent.com": [
-      {
-        "url": "https://www.egyptindependent.com/feed/",
-        "title": "Egypt Independent"
-      }
-    ],
-    "elbalad.news": [
-      {
-        "url": "https://www.elbalad.news/rss.aspx",
-        "title": "Sada El Balad"
-      }
-    ],
-    "dailynewsegypt.com": [
-      {
-        "url": "https://www.dailynewsegypt.com/feed/",
-        "title": "Daily News Egypt"
-      }
-    ],
-    "vetogate.com": [
-      {
-        "url": "https://www.vetogate.com/rss.aspx",
-        "title": "Veto Gate"
-      }
-    ],
-    "alarabiya.net": [
-      {
-        "url": "https://www.alarabiya.net/feed/rss2/ar.xml",
-        "title": "Al Arabiya"
-      }
-    ],
-    "english.alarabiya.net": [
-      {
-        "url": "https://english.alarabiya.net/feed/rss2/en.xml",
-        "title": "Al Arabiya English"
-      }
-    ],
-    "skynewsarabia.com": [
-      {
-        "url": "https://www.skynewsarabia.com/rss.xml",
-        "title": "Sky News Arabia"
-      }
-    ],
-    "bbc.com/arabic": [
-      {
-        "url": "https://feeds.bbci.co.uk/arabic/rss.xml",
-        "title": "BBC News Arabic"
-      }
-    ],
-    "arabic.rt.com": [
-      {
-        "url": "https://arabic.rt.com/rss/",
-        "title": "RT Arabic"
-      }
-    ],
-    "rtarabic.com": [
-      {
-        "url": "https://arabic.rt.com/rss/",
-        "title": "RT Arabic"
-      }
-    ],
-    "france24.com/ar": [
-      {
-        "url": "https://www.france24.com/ar/rss",
-        "title": "France 24 Arabic"
-      }
-    ],
-    "dw.com/ar": [
-      {
-        "url": "https://rss.dw.com/rdf/rss-ar-all",
-        "title": "DW Arabic"
-      }
-    ],
-    "aawsat.com": [
-      {
-        "url": "https://aawsat.com/feed",
-        "title": "Asharq Al-Awsat"
-      }
-    ],
-    "independentarabia.com": [
-      {
-        "url": "https://www.independentarabia.com/rss.xml",
-        "title": "Independent Arabia"
-      }
-    ],
-    "arabic.euronews.com": [
-      {
-        "url": "https://arabic.euronews.com/rss",
-        "title": "Euronews Arabic"
-      }
-    ],
-    "thenationalnews.com": [
-      {
-        "url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml",
-        "title": "The National"
-      }
-    ],
-    "al-monitor.com": [
-      {
-        "url": "https://www.al-monitor.com/rss",
-        "title": "Al-Monitor"
-      }
-    ],
-    "bbc.com": [
-      {
-        "url": "https://feeds.bbci.co.uk/news/rss.xml",
-        "title": "BBC News"
-      }
-    ],
-    "bbc.co.uk": [
-      {
-        "url": "https://feeds.bbci.co.uk/news/rss.xml",
-        "title": "BBC News"
-      }
-    ],
-    "theguardian.com": [
-      {
-        "url": "https://www.theguardian.com/world/rss",
-        "title": "The Guardian: World"
-      }
-    ],
-    "cnn.com": [
-      {
-        "url": "http://rss.cnn.com/rss/edition.rss",
-        "title": "CNN"
-      }
-    ],
-    "nytimes.com": [
-      {
-        "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "title": "The New York Times"
-      }
-    ],
-    "npr.org": [
-      {
-        "url": "https://feeds.npr.org/1001/rss.xml",
-        "title": "NPR News"
-      }
-    ],
-    "news.sky.com": [
-      {
-        "url": "https://feeds.skynews.com/feeds/rss/world.xml",
-        "title": "Sky News: World"
-      }
-    ],
-    "france24.com/en": [
-      {
-        "url": "https://www.france24.com/en/rss",
-        "title": "France 24"
-      }
-    ],
-    "france24.com": [
-      {
-        "url": "https://www.france24.com/en/rss",
-        "title": "France 24"
-      }
-    ],
-    "dw.com": [
-      {
-        "url": "https://rss.dw.com/rdf/rss-en-all",
-        "title": "DW"
-      }
-    ],
-    "independent.co.uk": [
-      {
-        "url": "https://www.independent.co.uk/news/world/rss",
-        "title": "The Independent: World"
-      }
-    ],
-    "cbsnews.com": [
-      {
-        "url": "https://www.cbsnews.com/latest/rss/main",
-        "title": "CBS News"
-      }
-    ],
-    "abcnews.go.com": [
-      {
-        "url": "https://abcnews.go.com/abcnews/topstories",
-        "title": "ABC News"
-      }
-    ],
-    "abcnews.com": [
-      {
-        "url": "https://abcnews.go.com/abcnews/topstories",
-        "title": "ABC News"
-      }
-    ],
-    "euronews.com": [
-      {
-        "url": "https://www.euronews.com/rss",
-        "title": "Euronews"
-      }
-    ],
-    "nbcnews.com": [
-      {
-        "url": "https://feeds.nbcnews.com/nbcnews/public/news",
-        "title": "NBC News"
-      }
-    ],
-    "foxnews.com": [
-      {
-        "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-        "title": "Fox News"
-      }
-    ]
-  },
-  "sig": "I23KpFZ8ax3qfJsQd1UkdC2+tOauMMRX/u/0NkOHKo8ZMQ3YW+S2H0TAUZ7nY8PlrnF5uRBL4fPn94Xes7yZDA=="
+ "v": 1,
+ "updated": "2026-10-30",
+ "feeds": {
+  "masrawy.com": [
+   {
+    "url": "https://www.masrawy.com/rss/feed/25/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
+    "title": "Masrawy: News",
+    "name": "Masrawy",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "news",
+    "rank": 47,
+    "verified": "2026-10-28"
+   }
+  ],
+  "almasryalyoum.com": [
+   {
+    "url": "https://www.almasryalyoum.com/rss/rssfeeds",
+    "title": "Al-Masry Al-Youm",
+    "name": "Al-Masry Al-Youm",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "news",
+    "rank": 44,
+    "verified": "2026-10-28"
+   }
+  ],
+  "egyptindependent.com": [
+   {
+    "url": "https://www.egyptindependent.com/feed/",
+    "title": "Egypt Independent",
+    "name": "Egypt Independent",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "en",
+    "topic": "news",
+    "rank": 65,
+    "verified": "2026-10-28"
+   }
+  ],
+  "shorouknews.com": [
+   {
+    "url": "https://www.shorouknews.com/rss/main/",
+    "title": "محتوى جريدة الشروق RSS - بوابة الشروق",
+    "name": "Shorouk News",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "news",
+    "rank": 59,
+    "verified": "2026-10-28"
+   }
+  ],
+  "elbalad.news": [
+   {
+    "url": "https://www.elbalad.news/rss.aspx",
+    "title": "Sada El Balad",
+    "name": "Sada El Balad",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "news",
+    "rank": 48,
+    "verified": "2026-10-28"
+   }
+  ],
+  "dostor.org": [
+   {
+    "url": "https://www.dostor.org/rss",
+    "title": "جميع الموضوعات",
+    "name": "Al Dostor",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "news",
+    "rank": 72,
+    "verified": "2026-10-28"
+   }
+  ],
+  "vetogate.com": [
+   {
+    "url": "https://www.vetogate.com/rss.aspx",
+    "title": "Veto Gate",
+    "name": "Vetogate",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "news",
+    "rank": 58,
+    "verified": "2026-10-28"
+   }
+  ],
+  "madamasr.com": [
+   {
+    "url": "https://www.madamasr.com/ar/feed/",
+    "title": "Mada Masr",
+    "name": "Mada Masr",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar/en",
+    "topic": "news",
+    "rank": 92,
+    "verified": null
+   },
+   {
+    "url": "https://www.madamasr.com/en/feed/",
+    "title": "Mada Masr",
+    "name": "Mada Masr",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar/en",
+    "topic": "news",
+    "rank": 92,
+    "verified": null
+   }
+  ],
+  "dailynewsegypt.com": [
+   {
+    "url": "https://www.dailynewsegypt.com/feed/",
+    "title": "Daily News Egypt",
+    "name": "Daily News Egypt",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "en",
+    "topic": "news",
+    "rank": 68,
+    "verified": "2026-10-28"
+   }
+  ],
+  "egyptianstreets.com": [
+   {
+    "url": "https://egyptianstreets.com/feed/",
+    "title": "Egyptian Streets",
+    "name": "Egyptian Streets",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "en",
+    "topic": "news",
+    "rank": 90,
+    "verified": "2026-10-28"
+   }
+  ],
+  "enterprise.press": [
+   {
+    "url": "https://enterpriseam.com/egypt/feed/",
+    "title": "EnterpriseAM Egypt",
+    "name": "Enterprise",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "en",
+    "topic": "business",
+    "rank": 121,
+    "verified": "2026-10-28"
+   }
+  ],
+  "amwalalghad.com": [
+   {
+    "url": "https://amwalalghad.com/feed/atom/",
+    "title": "أموال الغد",
+    "name": "Amwal Al Ghad",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "business",
+    "rank": 113,
+    "verified": "2026-10-28"
+   }
+  ],
+  "en.amwalalghad.com": [
+   {
+    "url": "https://en.amwalalghad.com/feed/",
+    "title": "Amwal Al Ghad",
+    "name": "Amwal Al Ghad English",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "en",
+    "topic": "business",
+    "rank": 114,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alborsaanews.com": [
+   {
+    "url": "https://www.alborsaanews.com/feed",
+    "title": "جريدة البورصة",
+    "name": "Al Borsa News",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "business",
+    "rank": 112,
+    "verified": "2026-10-28"
+   }
+  ],
+  "filfan.com": [
+   {
+    "url": "https://www.filfan.com/content?format=rss&contenttypeids=0",
+    "title": "FilFan.com",
+    "name": "Filfan",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "ar",
+    "topic": "entertainment",
+    "rank": 106,
+    "verified": "2026-10-28"
+   }
+  ],
+  "scoopempire.com": [
+   {
+    "url": "https://scoopempire.com/feed/",
+    "title": "Scoop Empire",
+    "name": "Scoop Empire",
+    "region": "Egypt",
+    "country": "Egypt",
+    "language": "en",
+    "topic": "lifestyle",
+    "rank": 108,
+    "verified": "2026-10-28"
+   }
+  ],
+  "aawsat.com": [
+   {
+    "url": "https://aawsat.com/feed",
+    "title": "Asharq Al-Awsat",
+    "name": "Asharq Al-Awsat",
+    "region": "Gulf",
+    "country": "Saudi Arabia",
+    "language": "ar",
+    "topic": "news",
+    "rank": 51,
+    "verified": "2026-10-28"
+   }
+  ],
+  "al-madina.com": [
+   {
+    "url": "https://www.al-madina.com/rss/feed",
+    "title": "صحيفة المدينة",
+    "name": "Al Madina",
+    "region": "Gulf",
+    "country": "Saudi Arabia",
+    "language": "ar",
+    "topic": "news",
+    "rank": 99,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alwatan.com.sa": [
+   {
+    "url": "https://www.alwatan.com.sa/rssFeed/0",
+    "title": "https://www.alwatan.com.sa/",
+    "name": "Al Watan (KSA)",
+    "region": "Gulf",
+    "country": "Saudi Arabia",
+    "language": "ar",
+    "topic": "news",
+    "rank": 97,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alyaum.com": [
+   {
+    "url": "https://www.alyaum.com/rssFeed/0",
+    "title": "صحيفة اليوم",
+    "name": "Al Yaum",
+    "region": "Gulf",
+    "country": "Saudi Arabia",
+    "language": "ar",
+    "topic": "news",
+    "rank": 76,
+    "verified": "2026-10-28"
+   }
+  ],
+  "sabq.org": [
+   {
+    "url": "https://sabq.org/api/rss/articles",
+    "title": "سبق الذكية - آخر الأخبار",
+    "name": "Sabq",
+    "region": "Gulf",
+    "country": "Saudi Arabia",
+    "language": "ar",
+    "topic": "news",
+    "rank": 60,
+    "verified": "2026-10-28"
+   }
+  ],
+  "arriyadiyah.com": [
+   {
+    "url": "https://arriyadiyah.com/rss",
+    "title": "صحيفة الرياضية",
+    "name": "Arriyadiyah",
+    "region": "Gulf",
+    "country": "Saudi Arabia",
+    "language": "ar",
+    "topic": "sport",
+    "rank": 85,
+    "verified": "2026-10-28"
+   }
+  ],
+  "gulfnews.com": [
+   {
+    "url": "https://gulfnews.com/stories.rss",
+    "title": "gulfnews",
+    "name": "Gulf News",
+    "region": "Gulf",
+    "country": "UAE",
+    "language": "en",
+    "topic": "news",
+    "rank": 41,
+    "verified": "2026-10-28"
+   }
+  ],
+  "khaleejtimes.com": [
+   {
+    "url": "https://www.khaleejtimes.com/api/v1/collections/top-section.rss",
+    "title": "Top Section",
+    "name": "Khaleej Times",
+    "region": "Gulf",
+    "country": "UAE",
+    "language": "en",
+    "topic": "news",
+    "rank": 46,
+    "verified": "2026-10-28"
+   }
+  ],
+  "thenationalnews.com": [
+   {
+    "url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml",
+    "title": "The National",
+    "name": "The National",
+    "region": "Gulf",
+    "country": "UAE",
+    "language": "en",
+    "topic": "news",
+    "rank": 42,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alittihad.ae": [
+   {
+    "url": "https://www.aletihad.ae/feed.rss",
+    "title": "Feed.rss",
+    "name": "Al Ittihad",
+    "region": "Gulf",
+    "country": "UAE",
+    "language": "ar",
+    "topic": "news",
+    "rank": 100,
+    "verified": "2026-10-28"
+   }
+  ],
+  "wamda.com": [
+   {
+    "url": "https://www.wamda.com:443/feed",
+    "title": "wamda",
+    "name": "Wamda",
+    "region": "Gulf",
+    "country": "UAE",
+    "language": "en",
+    "topic": "startups",
+    "rank": 94,
+    "verified": "2026-10-28"
+   }
+  ],
+  "aljazeera.net": [
+   {
+    "url": "https://www.aljazeera.net/rss",
+    "title": "Al Jazeera Arabic",
+    "name": "Al Jazeera Arabic",
+    "region": "Gulf",
+    "country": "Qatar",
+    "language": "ar",
+    "topic": "news",
+    "rank": 37,
+    "verified": null
+   }
+  ],
+  "aljazeera.com": [
+   {
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "title": "Al Jazeera English",
+    "name": "Al Jazeera English",
+    "region": "Gulf",
+    "country": "Qatar",
+    "language": "en",
+    "topic": "news",
+    "rank": 21,
+    "verified": null
+   }
+  ],
+  "al-sharq.com": [
+   {
+    "url": "https://al-sharq.com/rss/latestNews",
+    "title": "Al-Sharq",
+    "name": "Al Sharq",
+    "region": "Gulf",
+    "country": "Qatar",
+    "language": "ar",
+    "topic": "news",
+    "rank": 93,
+    "verified": "2026-10-28"
+   }
+  ],
+  "lusailnews.qa": [
+   {
+    "url": "https://lusailnews.net/category/أخبار/feed",
+    "title": "LusailNews",
+    "name": "Lusail News",
+    "region": "Gulf",
+    "country": "Qatar",
+    "language": "ar",
+    "topic": "business",
+    "rank": 126,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alanba.com.kw": [
+   {
+    "url": "https://www.alanba.com.kw/alanba_rssfeed/kuwait-news.xml",
+    "title": "أخبار الكويت | اخر الاخبار الكويتية المحلية | الكويت اليوم | جريدة الأنباء الكويتية",
+    "name": "Al Anba",
+    "region": "Gulf",
+    "country": "Kuwait",
+    "language": "ar",
+    "topic": "news",
+    "rank": 87,
+    "verified": "2026-10-28"
+   }
+  ],
+  "newsofbahrain.com": [
+   {
+    "url": "https://www.newsofbahrain.com/rss/en.xml",
+    "title": "News of Bahrain - Latest Bahrain, GCC, Business & Sports",
+    "name": "News of Bahrain",
+    "region": "Gulf",
+    "country": "Bahrain",
+    "language": "en",
+    "topic": "news",
+    "rank": 105,
+    "verified": "2026-10-28"
+   }
+  ],
+  "omannews.gov.om": [
+   {
+    "url": "https://omannews.gov.om/rss.ona",
+    "title": "وكالة الأنباء العمانية (العمانية)",
+    "name": "Oman News Agency",
+    "region": "Gulf",
+    "country": "Oman",
+    "language": "ar/en",
+    "topic": "news agency",
+    "rank": 107,
+    "verified": "2026-10-28"
+   }
+  ],
+  "timesofoman.com": [
+   {
+    "url": "https://timesofoman.com/feed",
+    "title": "Times of Oman",
+    "name": "Times of Oman",
+    "region": "Gulf",
+    "country": "Oman",
+    "language": "en",
+    "topic": "news",
+    "rank": 74,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alghad.com": [
+   {
+    "url": "https://alghad.com/rss",
+    "title": "جريدة الغد | مصدرك الأول لأخبار الأردن والعالم",
+    "name": "Al Ghad",
+    "region": "Levant & Iraq",
+    "country": "Jordan",
+    "language": "ar",
+    "topic": "news",
+    "rank": 96,
+    "verified": "2026-10-28"
+   }
+  ],
+  "ammonnews.net": [
+   {
+    "url": "https://www.ammonnews.net/rss.php?type=news&id=3",
+    "title": "اقتصاد | وكالة عمون الاخبارية",
+    "name": "Ammon News",
+    "region": "Levant & Iraq",
+    "country": "Jordan",
+    "language": "ar",
+    "topic": "news",
+    "rank": 63,
+    "verified": "2026-10-28"
+   }
+  ],
+  "royanews.tv": [
+   {
+    "url": "https://royanews.tv/rss",
+    "title": "رؤيا الأخباري",
+    "name": "Roya News",
+    "region": "Levant & Iraq",
+    "country": "Jordan",
+    "language": "ar",
+    "topic": "news",
+    "rank": 61,
+    "verified": "2026-10-28"
+   }
+  ],
+  "annahar.com": [
+   {
+    "url": "https://www.annahar.com/rss",
+    "title": "Annahar",
+    "name": "An-Nahar",
+    "region": "Levant & Iraq",
+    "country": "Lebanon",
+    "language": "ar",
+    "topic": "news",
+    "rank": 57,
+    "verified": "2026-10-28"
+   }
+  ],
+  "lbcgroup.tv": [
+   {
+    "url": "https://www.lbcgroup.tv/Rss/latest-news/ar",
+    "title": "LBCI",
+    "name": "LBCI",
+    "region": "Levant & Iraq",
+    "country": "Lebanon",
+    "language": "ar",
+    "topic": "news",
+    "rank": 82,
+    "verified": "2026-10-28"
+   }
+  ],
+  "naharnet.com": [
+   {
+    "url": "https://naharnet.com/tags/lebanon/en/feed.atom",
+    "title": "Lebanon",
+    "name": "Naharnet",
+    "region": "Levant & Iraq",
+    "country": "Lebanon",
+    "language": "en",
+    "topic": "news",
+    "rank": 79,
+    "verified": "2026-10-28"
+   }
+  ],
+  "sana.sy": [
+   {
+    "url": "https://sana.sy/feed/",
+    "title": "الوكالة العربية السورية للأنباء",
+    "name": "SANA",
+    "region": "Levant & Iraq",
+    "country": "Syria",
+    "language": "ar/en",
+    "topic": "news agency",
+    "rank": 56,
+    "verified": "2026-10-28"
+   }
+  ],
+  "syria.tv": [
+   {
+    "url": "https://www.syria.tv/rss",
+    "title": "تلفزيون سوريا",
+    "name": "Syria TV",
+    "region": "Levant & Iraq",
+    "country": "Syria",
+    "language": "ar",
+    "topic": "news",
+    "rank": 77,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alwatan.sy": [
+   {
+    "url": "https://alwatan.sy/feed/",
+    "title": "صحيفة الوطن السورية",
+    "name": "Al Watan (Syria)",
+    "region": "Levant & Iraq",
+    "country": "Syria",
+    "language": "ar",
+    "topic": "news",
+    "rank": 122,
+    "verified": "2026-10-28"
+   }
+  ],
+  "zamanalwsl.net": [
+   {
+    "url": "https://www.zamanalwsl.net/rss",
+    "title": "زمان الوصل",
+    "name": "Zaman Al Wasl",
+    "region": "Levant & Iraq",
+    "country": "Syria",
+    "language": "ar",
+    "topic": "news",
+    "rank": 102,
+    "verified": "2026-10-28"
+   }
+  ],
+  "syriadirect.org": [
+   {
+    "url": "https://syriadirect.org/feed/",
+    "title": "Syria Direct",
+    "name": "Syria Direct",
+    "region": "Levant & Iraq",
+    "country": "Syria",
+    "language": "en",
+    "topic": "news",
+    "rank": 116,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alquds.com": [
+   {
+    "url": "https://alquds.com/ar/rss",
+    "title": "خلاصة جريدة القدس",
+    "name": "Al Quds",
+    "region": "Levant & Iraq",
+    "country": "Palestine",
+    "language": "ar",
+    "topic": "news",
+    "rank": 83,
+    "verified": "2026-10-28"
+   }
+  ],
+  "qudsn.co": [
+   {
+    "url": "https://qudsn.co/rss/category/all",
+    "title": "شبكة قدس الإخبارية",
+    "name": "Quds News Network",
+    "region": "Levant & Iraq",
+    "country": "Palestine",
+    "language": "ar",
+    "topic": "news",
+    "rank": 125,
+    "verified": "2026-10-28"
+   }
+  ],
+  "ina.iq": [
+   {
+    "url": "https://ina.iq/rssturbo.xml",
+    "title": "وكالة الانباء العراقية (واع) | اخبار العراق",
+    "name": "Iraqi News Agency",
+    "region": "Levant & Iraq",
+    "country": "Iraq",
+    "language": "ar/en",
+    "topic": "news agency",
+    "rank": 78,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alsumaria.tv": [
+   {
+    "url": "https://www.alsumaria.tv/Rss/News",
+    "title": "السومرية",
+    "name": "Alsumaria",
+    "region": "Levant & Iraq",
+    "country": "Iraq",
+    "language": "ar",
+    "topic": "news",
+    "rank": 64,
+    "verified": "2026-10-28"
+   }
+  ],
+  "almadapaper.net": [
+   {
+    "url": "https://almadapaper.net/feed/",
+    "title": "جريدة المدى",
+    "name": "Al Mada",
+    "region": "Levant & Iraq",
+    "country": "Iraq",
+    "language": "ar",
+    "topic": "news",
+    "rank": 120,
+    "verified": "2026-10-28"
+   }
+  ],
+  "baghdadtoday.news": [
+   {
+    "url": "https://baghdadtoday.news/rss.xml",
+    "title": "وكالة بغداد اليوم الاخبارية",
+    "name": "Baghdad Today",
+    "region": "Levant & Iraq",
+    "country": "Iraq",
+    "language": "ar",
+    "topic": "news",
+    "rank": 117,
+    "verified": "2026-10-28"
+   }
+  ],
+  "iraqinews.com": [
+   {
+    "url": "https://www.iraqinews.com/feed/",
+    "title": "Iraqi News",
+    "name": "Iraqi News",
+    "region": "Levant & Iraq",
+    "country": "Iraq",
+    "language": "en",
+    "topic": "news",
+    "rank": 91,
+    "verified": "2026-10-28"
+   }
+  ],
+  "akhbarlibya24.net": [
+   {
+    "url": "https://akhbarlibya24.net/feed",
+    "title": "أخبار ليبيا 24",
+    "name": "Akhbar Libya 24",
+    "region": "North Africa",
+    "country": "Libya",
+    "language": "ar",
+    "topic": "news",
+    "rank": 127,
+    "verified": "2026-10-28"
+   }
+  ],
+  "libyaherald.com": [
+   {
+    "url": "https://libyaherald.com/rss.xml",
+    "title": "Libya Herald",
+    "name": "Libya Herald",
+    "region": "North Africa",
+    "country": "Libya",
+    "language": "en",
+    "topic": "news",
+    "rank": 103,
+    "verified": "2026-10-28"
+   }
+  ],
+  "mosaiquefm.net": [
+   {
+    "url": "https://www.mosaiquefm.net/rss",
+    "title": "Mosaique FM - RSS",
+    "name": "Mosaique FM",
+    "region": "North Africa",
+    "country": "Tunisia",
+    "language": "ar/fr",
+    "topic": "news",
+    "rank": 62,
+    "verified": "2026-10-28"
+   }
+  ],
+  "lapresse.tn": [
+   {
+    "url": "https://www.lapresse.tn/feed/",
+    "title": "La Presse de Tunisie",
+    "name": "La Presse",
+    "region": "North Africa",
+    "country": "Tunisia",
+    "language": "fr",
+    "topic": "news",
+    "rank": 75,
+    "verified": "2026-10-28"
+   }
+  ],
+  "businessnews.com.tn": [
+   {
+    "url": "https://businessnews.com.tn/feed/",
+    "title": "Business News",
+    "name": "Business News",
+    "region": "North Africa",
+    "country": "Tunisia",
+    "language": "fr",
+    "topic": "business",
+    "rank": 81,
+    "verified": "2026-10-28"
+   }
+  ],
+  "kapitalis.com": [
+   {
+    "url": "https://kapitalis.com/tunisie/feed/",
+    "title": "Kapitalis",
+    "name": "Kapitalis",
+    "region": "North Africa",
+    "country": "Tunisia",
+    "language": "fr",
+    "topic": "news",
+    "rank": 98,
+    "verified": "2026-10-28"
+   }
+  ],
+  "nawaat.org": [
+   {
+    "url": "https://nawaat.org/feed/",
+    "title": "Nawaat",
+    "name": "Nawaat",
+    "region": "North Africa",
+    "country": "Tunisia",
+    "language": "ar/fr",
+    "topic": "news",
+    "rank": 110,
+    "verified": "2026-10-28"
+   }
+  ],
+  "elkhabar.com": [
+   {
+    "url": "https://www.elkhabar.com/feed",
+    "title": "prefix_key RSS suffix_key",
+    "name": "El Khabar",
+    "region": "North Africa",
+    "country": "Algeria",
+    "language": "ar",
+    "topic": "news",
+    "rank": 71,
+    "verified": "2026-10-28"
+   }
+  ],
+  "echoroukonline.com": [
+   {
+    "url": "https://www.echoroukonline.com/feed",
+    "title": "الشروق أونلاين",
+    "name": "Echorouk",
+    "region": "North Africa",
+    "country": "Algeria",
+    "language": "ar",
+    "topic": "news",
+    "rank": 66,
+    "verified": "2026-10-28"
+   }
+  ],
+  "ennaharonline.com": [
+   {
+    "url": "https://www.ennaharonline.com/feed/",
+    "title": "النهار أونلاين",
+    "name": "Ennahar",
+    "region": "North Africa",
+    "country": "Algeria",
+    "language": "ar",
+    "topic": "news",
+    "rank": 69,
+    "verified": "2026-10-28"
+   }
+  ],
+  "tsa-algerie.com": [
+   {
+    "url": "https://www.tsa-algerie.com/feed/",
+    "title": "TSA",
+    "name": "TSA",
+    "region": "North Africa",
+    "country": "Algeria",
+    "language": "fr",
+    "topic": "news",
+    "rank": 67,
+    "verified": "2026-10-28"
+   }
+  ],
+  "algerie360.com": [
+   {
+    "url": "https://www.algerie360.com/feed/",
+    "title": "Algerie360",
+    "name": "Algerie360",
+    "region": "North Africa",
+    "country": "Algeria",
+    "language": "fr",
+    "topic": "news",
+    "rank": 70,
+    "verified": "2026-10-28"
+   }
+  ],
+  "hespress.com": [
+   {
+    "url": "https://www.hespress.com/feed",
+    "title": "Hespress – هسبريس جريدة إلكترونية مغربية",
+    "name": "Hespress",
+    "region": "North Africa",
+    "country": "Morocco",
+    "language": "ar",
+    "topic": "news",
+    "rank": 49,
+    "verified": "2026-10-28"
+   }
+  ],
+  "en.hespress.com": [
+   {
+    "url": "https://en.hespress.com/feed",
+    "title": "HESPRESS English – Morocco News",
+    "name": "Hespress English",
+    "region": "North Africa",
+    "country": "Morocco",
+    "language": "en",
+    "topic": "news",
+    "rank": 50,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alyaoum24.com": [
+   {
+    "url": "https://alyaoum24.com/feed",
+    "title": "اليوم 24",
+    "name": "Alyaoum24",
+    "region": "North Africa",
+    "country": "Morocco",
+    "language": "ar",
+    "topic": "news",
+    "rank": 95,
+    "verified": "2026-10-28"
+   }
+  ],
+  "barlamane.com": [
+   {
+    "url": "https://barlamane.com/feed/",
+    "title": "برلمان.كوم",
+    "name": "Barlamane",
+    "region": "North Africa",
+    "country": "Morocco",
+    "language": "ar",
+    "topic": "news",
+    "rank": 111,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alsudaninews.com": [
+   {
+    "url": "https://alsudaninews.com/?feed=rss2",
+    "title": "صحيفة السوداني",
+    "name": "Al Sudani",
+    "region": "North Africa",
+    "country": "Sudan",
+    "language": "ar",
+    "topic": "news",
+    "rank": 128,
+    "verified": "2026-10-28"
+   }
+  ],
+  "sudanile.com": [
+   {
+    "url": "https://sudanile.com/feed/",
+    "title": "سودانايل",
+    "name": "Sudanile",
+    "region": "North Africa",
+    "country": "Sudan",
+    "language": "ar",
+    "topic": "news",
+    "rank": 119,
+    "verified": "2026-10-28"
+   }
+  ],
+  "dabangasudan.org": [
+   {
+    "url": "https://www.dabangasudan.org/ar/feed",
+    "title": "Dabanga Radio TV Online",
+    "name": "Radio Dabanga",
+    "region": "North Africa",
+    "country": "Sudan",
+    "language": "ar/en",
+    "topic": "news",
+    "rank": 101,
+    "verified": "2026-10-28"
+   }
+  ],
+  "ami.mr": [
+   {
+    "url": "https://www.ami.mr/feed",
+    "title": "الوكالة الموريتانية للأنباء",
+    "name": "AMI",
+    "region": "North Africa",
+    "country": "Mauritania",
+    "language": "ar/fr",
+    "topic": "news agency",
+    "rank": 109,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alakhbar.info": [
+   {
+    "url": "https://www.alakhbar.info/latest/rss/",
+    "title": "الأخبار",
+    "name": "Alakhbar",
+    "region": "North Africa",
+    "country": "Mauritania",
+    "language": "ar",
+    "topic": "news",
+    "rank": 115,
+    "verified": "2026-10-28"
+   }
+  ],
+  "yemenmonitor.com": [
+   {
+    "url": "https://www.yemenmonitor.com/feed",
+    "title": "يمن مونيتور",
+    "name": "Yemen Monitor",
+    "region": "Horn & Yemen",
+    "country": "Yemen",
+    "language": "ar",
+    "topic": "news",
+    "rank": 124,
+    "verified": "2026-10-28"
+   }
+  ],
+  "hiiraan.com": [
+   {
+    "url": "https://hiiraan.com/news.xml",
+    "title": "Hiiraan Online - Somali News",
+    "name": "Hiiraan Online",
+    "region": "Horn & Yemen",
+    "country": "Somalia",
+    "language": "so/en",
+    "topic": "news",
+    "rank": 89,
+    "verified": "2026-10-28"
+   }
+  ],
+  "adi.dj": [
+   {
+    "url": "https://adi.dj/rss",
+    "title": "ADI News - Agence Djiboutienne d'Information",
+    "name": "ADI",
+    "region": "Horn & Yemen",
+    "country": "Djibouti",
+    "language": "fr",
+    "topic": "news agency",
+    "rank": 129,
+    "verified": "2026-10-28"
+   }
+  ],
+  "lanation.dj": [
+   {
+    "url": "https://www.lanation.dj/feed/",
+    "title": "LA NATION",
+    "name": "La Nation",
+    "region": "Horn & Yemen",
+    "country": "Djibouti",
+    "language": "fr",
+    "topic": "news",
+    "rank": 130,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alarabiya.net": [
+   {
+    "url": "https://www.alarabiya.net/feed/rss2/ar.xml",
+    "title": "Al Arabiya",
+    "name": "Al Arabiya",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 38,
+    "verified": null
+   }
+  ],
+  "english.alarabiya.net": [
+   {
+    "url": "https://english.alarabiya.net/feed/rss2/en.xml",
+    "title": "Al Arabiya English",
+    "name": "Al Arabiya English",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 39,
+    "verified": null
+   }
+  ],
+  "skynewsarabia.com": [
+   {
+    "url": "https://www.skynewsarabia.com/rss.xml",
+    "title": "Sky News Arabia",
+    "name": "Sky News Arabia",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 53,
+    "verified": "2026-10-28"
+   }
+  ],
+  "bbc.com/arabic": [
+   {
+    "url": "https://feeds.bbci.co.uk/arabic/rss.xml",
+    "title": "BBC News Arabic",
+    "name": "BBC Arabic",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 4,
+    "verified": "2026-10-28"
+   }
+  ],
+  "arabic.cnn.com": [
+   {
+    "url": "https://arabic.cnn.com/api/v1/rss/rss.xml",
+    "title": "CNN Arabic RSS Feed",
+    "name": "CNN Arabic",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 2,
+    "verified": "2026-10-28"
+   }
+  ],
+  "dw.com/ar": [
+   {
+    "url": "https://rss.dw.com/rdf/rss-ar-all",
+    "title": "DW Arabic",
+    "name": "DW Arabic",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 18,
+    "verified": "2026-10-28"
+   }
+  ],
+  "france24.com/ar": [
+   {
+    "url": "https://www.france24.com/ar/rss",
+    "title": "France 24 Arabic",
+    "name": "France 24 Arabic",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 34,
+    "verified": "2026-10-28"
+   }
+  ],
+  "arabic.rt.com": [
+   {
+    "url": "https://rtarabic.com/rss/",
+    "title": "RT Arabic",
+    "name": "RT Arabic",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 33,
+    "verified": "2026-10-28"
+   }
+  ],
+  "arabic.euronews.com": [
+   {
+    "url": "https://arabic.euronews.com/rss",
+    "title": "Euronews Arabic",
+    "name": "Euronews Arabic",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 26,
+    "verified": "2026-10-28"
+   }
+  ],
+  "alhurra.com": [
+   {
+    "url": "https://alhurra.com/feed",
+    "title": "الحرة",
+    "name": "Alhurra",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 84,
+    "verified": "2026-10-28"
+   }
+  ],
+  "independentarabia.com": [
+   {
+    "url": "https://www.independentarabia.com/rss.xml",
+    "title": "Independent Arabia",
+    "name": "Independent Arabia",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 88,
+    "verified": "2026-10-28"
+   }
+  ],
+  "asharq.com": [
+   {
+    "url": "https://asharq.com/rss.xml",
+    "title": "Asharq",
+    "name": "Asharq News",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 73,
+    "verified": "2026-10-28"
+   }
+  ],
+  "elaph.com": [
+   {
+    "url": "https://elaph.com/feed",
+    "title": "إيلاف - أخبار عاجلة",
+    "name": "Elaph",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 86,
+    "verified": "2026-10-28"
+   }
+  ],
+  "raseef22.net": [
+   {
+    "url": "https://raseef22.net/feed",
+    "title": "عربي - Raseef22",
+    "name": "Raseef22",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "news",
+    "rank": 104,
+    "verified": "2026-10-28"
+   }
+  ],
+  "al-monitor.com": [
+   {
+    "url": "https://www.al-monitor.com/rss",
+    "title": "Al-Monitor",
+    "name": "Al-Monitor",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 52,
+    "verified": "2026-10-28"
+   }
+  ],
+  "kooora.com": [
+   {
+    "url": "https://feeds.footballco.com/kooora/feed/6p5bsxot7te8yick",
+    "title": "الموقع العربي الرياضي الأول | كووورة",
+    "name": "Kooora",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "sport",
+    "rank": 22,
+    "verified": "2026-10-28"
+   }
+  ],
+  "aitnews.com": [
+   {
+    "url": "https://aitnews.com/feed/",
+    "title": "البوابة التقنية",
+    "name": "Aitnews",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "tech",
+    "rank": 118,
+    "verified": "2026-10-28"
+   }
+  ],
+  "unlimit-tech.com": [
+   {
+    "url": "https://www.unlimit-tech.com/feed/",
+    "title": "التقنية بلا حدود",
+    "name": "Unlimit Tech",
+    "region": "International Arabic",
+    "country": "International",
+    "language": "ar",
+    "topic": "tech",
+    "rank": 123,
+    "verified": "2026-10-28"
+   }
+  ],
+  "bbc.com/news": [
+   {
+    "url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "title": "BBC News",
+    "name": "BBC News",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 5,
+    "verified": "2026-10-28"
+   }
+  ],
+  "theguardian.com": [
+   {
+    "url": "https://www.theguardian.com/world/rss",
+    "title": "The Guardian: World",
+    "name": "The Guardian",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 3,
+    "verified": "2026-10-28"
+   }
+  ],
+  "nytimes.com": [
+   {
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "title": "The New York Times",
+    "name": "The New York Times",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 1,
+    "verified": "2026-10-28"
+   }
+  ],
+  "npr.org": [
+   {
+    "url": "https://feeds.npr.org/1001/rss.xml",
+    "title": "NPR News",
+    "name": "NPR",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 11,
+    "verified": "2026-10-28"
+   }
+  ],
+  "france24.com/en": [
+   {
+    "url": "https://www.france24.com/en/rss",
+    "title": "France 24",
+    "name": "France 24 English",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 35,
+    "verified": "2026-10-28"
+   }
+  ],
+  "dw.com/en": [
+   {
+    "url": "https://rss.dw.com/rdf/rss-en-all",
+    "title": "Deutsche Welle",
+    "name": "DW English",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 19,
+    "verified": "2026-10-28"
+   }
+  ],
+  "euronews.com": [
+   {
+    "url": "https://www.euronews.com/rss",
+    "title": "Euronews",
+    "name": "Euronews",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 27,
+    "verified": "2026-10-28"
+   }
+  ],
+  "trtworld.com": [
+   {
+    "url": "https://www.trtworld.com/feed/rss.xml",
+    "title": "TRT World - Breaking News, Live Coverage, Opinions and Visuals",
+    "name": "TRT World",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news",
+    "rank": 54,
+    "verified": "2026-10-28"
+   }
+  ],
+  "businessinsider.com": [
+   {
+    "url": "https://feeds.businessinsider.com/custom/all",
+    "title": "All Content from Business Insider",
+    "name": "Business Insider",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "business",
+    "rank": 9,
+    "verified": "2026-10-28"
+   }
+  ],
+  "restofworld.org": [
+   {
+    "url": "https://restofworld.org/feed/latest",
+    "title": "Rest of World -",
+    "name": "Rest of World",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 55,
+    "verified": "2026-10-28"
+   }
+  ],
+  "techcrunch.com": [
+   {
+    "url": "https://techcrunch.com/feed/",
+    "title": "TechCrunch",
+    "name": "TechCrunch",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 13,
+    "verified": "2026-10-28"
+   }
+  ],
+  "theverge.com": [
+   {
+    "url": "https://www.theverge.com/rss/index.xml",
+    "title": "The Verge",
+    "name": "The Verge",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 16,
+    "verified": "2026-10-28"
+   }
+  ],
+  "wired.com": [
+   {
+    "url": "https://www.wired.com/feed/rss",
+    "title": "WIRED",
+    "name": "Wired",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 12,
+    "verified": "2026-10-28"
+   }
+  ],
+  "arstechnica.com": [
+   {
+    "url": "https://arstechnica.com/feed/",
+    "title": "Ars Technica",
+    "name": "Ars Technica",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 23,
+    "verified": "2026-10-28"
+   }
+  ],
+  "engadget.com": [
+   {
+    "url": "https://www.engadget.com/category/news/feed/",
+    "title": "Engadget - Technology News & Expert Reviews",
+    "name": "Engadget",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 28,
+    "verified": "2026-10-28"
+   }
+  ],
+  "zdnet.com": [
+   {
+    "url": "https://www.zdnet.com/rss/all/",
+    "title": "ZDNET",
+    "name": "ZDNet",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 24,
+    "verified": "2026-10-28"
+   }
+  ],
+  "technologyreview.com": [
+   {
+    "url": "https://www.technologyreview.com/feed",
+    "title": "MIT Technology Review",
+    "name": "MIT Technology Review",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 32,
+    "verified": "2026-10-28"
+   }
+  ],
+  "news.ycombinator.com": [
+   {
+    "url": "https://news.ycombinator.com/rss",
+    "title": "Hacker News",
+    "name": "Hacker News",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "tech",
+    "rank": 29,
+    "verified": "2026-10-28"
+   }
+  ],
+  "bleepingcomputer.com": [
+   {
+    "url": "https://www.bleepingcomputer.com/feed/",
+    "title": "BleepingComputer",
+    "name": "BleepingComputer",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "security",
+    "rank": 40,
+    "verified": "2026-10-28"
+   }
+  ],
+  "thehackernews.com": [
+   {
+    "url": "https://feeds.feedburner.com/TheHackersNews",
+    "title": "The Hacker News",
+    "name": "The Hacker News",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "security",
+    "rank": 45,
+    "verified": "2026-10-28"
+   }
+  ],
+  "scmp.com": [
+   {
+    "url": "https://www.scmp.com/rss/91/feed/",
+    "title": "News - South China Morning Post",
+    "name": "South China Morning Post",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news (Asia)",
+    "rank": 31,
+    "verified": "2026-10-28"
+   }
+  ],
+  "dawn.com": [
+   {
+    "url": "https://www.dawn.com/feeds/home/",
+    "title": "Dawn - Home",
+    "name": "Dawn",
+    "region": "World",
+    "country": "International",
+    "language": "en",
+    "topic": "news (Asia)",
+    "rank": 43,
+    "verified": "2026-10-28"
+   }
+  ],
+  "rtarabic.com": [
+   {
+    "url": "https://rtarabic.com/rss/",
+    "title": "RT Arabic",
+    "name": "RT Arabic",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 80,
+    "verified": "2026-10-28"
+   }
+  ],
+  "bbc.com": [
+   {
+    "url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "title": "BBC News",
+    "name": "BBC News",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 6,
+    "verified": "2026-10-28"
+   }
+  ],
+  "bbc.co.uk": [
+   {
+    "url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "title": "BBC News",
+    "name": "BBC News",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 7,
+    "verified": "2026-10-28"
+   }
+  ],
+  "news.sky.com": [
+   {
+    "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+    "title": "Sky News: World",
+    "name": "Sky News: World",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 25,
+    "verified": "2026-10-28"
+   }
+  ],
+  "france24.com": [
+   {
+    "url": "https://www.france24.com/en/rss",
+    "title": "France 24",
+    "name": "France 24",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 36,
+    "verified": "2026-10-28"
+   }
+  ],
+  "dw.com": [
+   {
+    "url": "https://rss.dw.com/rdf/rss-en-all",
+    "title": "DW",
+    "name": "DW",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 20,
+    "verified": "2026-10-28"
+   }
+  ],
+  "independent.co.uk": [
+   {
+    "url": "https://www.independent.co.uk/news/world/rss",
+    "title": "The Independent: World",
+    "name": "The Independent: World",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 15,
+    "verified": "2026-10-28"
+   }
+  ],
+  "cbsnews.com": [
+   {
+    "url": "https://www.cbsnews.com/latest/rss/main",
+    "title": "CBS News",
+    "name": "CBS News",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 14,
+    "verified": "2026-10-28"
+   }
+  ],
+  "abcnews.go.com": [
+   {
+    "url": "https://abcnews.com/abcnews/topstories",
+    "title": "ABC News",
+    "name": "ABC News",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 8,
+    "verified": "2026-10-28"
+   }
+  ],
+  "abcnews.com": [
+   {
+    "url": "https://abcnews.com/abcnews/topstories",
+    "title": "ABC News",
+    "name": "ABC News",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 30,
+    "verified": "2026-10-28"
+   }
+  ],
+  "nbcnews.com": [
+   {
+    "url": "https://feeds.nbcnews.com/nbcnews/public/news",
+    "title": "NBC News",
+    "name": "NBC News",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 17,
+    "verified": "2026-10-28"
+   }
+  ],
+  "foxnews.com": [
+   {
+    "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+    "title": "Fox News",
+    "name": "Fox News",
+    "region": "Earlier list",
+    "country": "",
+    "language": "",
+    "topic": "",
+    "rank": 10,
+    "verified": "2026-10-28"
+   }
+  ]
+ },
+ "sig": "fydY3jzH/J4fvCOm0zUr4yFbUN1pm3zFK1/2G4EVS8o7miu17HSc7S3Mp4Sn3XZL1BQS4HzaJxduETrHW5wIDQ=="
 }

@@ -1,0 +1,1007 @@
+{
+ "v": 1,
+ "updated": "2026-10-30",
+ "channels": [
+  {
+   "platform": "youtube",
+   "id": "UCfiwzLy-8yKzIbsmZTzxDgw",
+   "handle": "@aljazeera",
+   "url": "",
+   "name": "Al Jazeera Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "Qatar",
+   "rank": 1,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCahpxixMCwoANAftn6IxkTg",
+   "handle": "@AlArabiya",
+   "url": "",
+   "name": "Al Arabiya",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "UAE",
+   "rank": 2,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCIJXOvggjKtCagMfxvcCzAA",
+   "handle": "@skynewsarabia",
+   "url": "",
+   "name": "Sky News Arabia",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "UAE",
+   "rank": 3,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCelk6aHijZq-GJBBB9YpReA",
+   "handle": "@BBCNewsArabic",
+   "url": "",
+   "name": "BBC News Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "International",
+   "rank": 4,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCi97xPhaYMe9HAzLCh8CC9g",
+   "handle": "@AlQaheraNews",
+   "url": "",
+   "name": "Al Qahera News",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "Egypt",
+   "rank": 5,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCbnJMCY2WSvvGdqWrOjo8oQ",
+   "handle": "@youm7",
+   "url": "",
+   "name": "Youm7",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "Egypt",
+   "rank": 6,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UC30ditU5JI16o5NbFsHde_Q",
+   "handle": "@dwarabic",
+   "url": "",
+   "name": "DW Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "International",
+   "rank": 7,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCdTyuXgmJkG_O8_75eqej-w",
+   "handle": "@france24_ar",
+   "url": "",
+   "name": "France 24 Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "International",
+   "rank": 8,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCRJUVYt9gjg8MnlGacySUdg",
+   "handle": "@AsharqNews",
+   "url": "",
+   "name": "Asharq News",
+   "topic": "news",
+   "tags": [
+    "business"
+   ],
+   "language": "ar",
+   "country": "Saudi Arabia",
+   "rank": 9,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCSNkfKl4cU-55Nm-ovsvOHQ",
+   "handle": "@ElzeroWebSchool",
+   "url": "",
+   "name": "Elzero Web School",
+   "topic": "tech",
+   "tags": [
+    "programming",
+    "software development",
+    "developer"
+   ],
+   "language": "ar",
+   "country": "Egypt",
+   "rank": 10,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCqq5n-Oe-r1EEHI3yvhVJcA",
+   "handle": "@AboFlah",
+   "url": "",
+   "name": "AboFlah",
+   "topic": "gaming",
+   "tags": [
+    "video games"
+   ],
+   "language": "ar",
+   "country": "Kuwait",
+   "rank": 11,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCxEGVXh6fi-XYo58NZrbIHQ",
+   "handle": "@BanderitaX",
+   "url": "",
+   "name": "BanderitaX",
+   "topic": "gaming",
+   "tags": [
+    "video games"
+   ],
+   "language": "ar",
+   "country": "Saudi Arabia",
+   "rank": 12,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UChqUTb7kYRX8-EiaN3XFrSQ",
+   "handle": "@Reuters",
+   "url": "",
+   "name": "Reuters",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 15,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UC16niRr50-MSBwiO3YDb3RA",
+   "handle": "@BBCNews",
+   "url": "",
+   "name": "BBC News",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 16,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCNye-wNBqNL5ZzHSJj3l8Bg",
+   "handle": "@aljazeeraenglish",
+   "url": "",
+   "name": "Al Jazeera English",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 17,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCknLrEdhRCp1aegoMqRaCZg",
+   "handle": "@DWNews",
+   "url": "",
+   "name": "DW News",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 18,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCvJJ_dzjViJCoLf5uKUTwoA",
+   "handle": "@CNBC",
+   "url": "",
+   "name": "CNBC",
+   "topic": "business",
+   "tags": [
+    "economy",
+    "markets"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 19,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCBJycsmduvYEL83R_U4JriQ",
+   "handle": "@mkbhd",
+   "url": "",
+   "name": "Marques Brownlee",
+   "topic": "tech",
+   "tags": [
+    "gadgets"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 20,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCXuqSBlHAE6Xw-yeJA0Tunw",
+   "handle": "@LinusTechTips",
+   "url": "",
+   "name": "Linus Tech Tips",
+   "topic": "tech",
+   "tags": [
+    "gadgets"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 21,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCsBjURrPoezykLs9EqgamOA",
+   "handle": "@Fireship",
+   "url": "",
+   "name": "Fireship",
+   "topic": "tech",
+   "tags": [
+    "programming",
+    "software development",
+    "ai"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 22,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCbfYPyITQ-7l4upoX8nvctg",
+   "handle": "@TwoMinutePapers",
+   "url": "",
+   "name": "Two Minute Papers",
+   "topic": "tech",
+   "tags": [
+    "ai",
+    "machine learning"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 23,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+   "handle": "@veritasium",
+   "url": "",
+   "name": "Veritasium",
+   "topic": "science",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 24,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCsXVk37bltHxD1rDPwtNM8Q",
+   "handle": "@kurzgesagt",
+   "url": "",
+   "name": "Kurzgesagt",
+   "topic": "science",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 25,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCYO_jab_esuFRV4b17AJtAw",
+   "handle": "@3blue1brown",
+   "url": "",
+   "name": "3Blue1Brown",
+   "topic": "science",
+   "tags": [
+    "math",
+    "machine learning"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 26,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UC8butISFwT-Wl7EV0hUK0BQ",
+   "handle": "@freecodecamp",
+   "url": "",
+   "name": "freeCodeCamp",
+   "topic": "tech",
+   "tags": [
+    "programming",
+    "software development",
+    "open source"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 27,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+   "handle": "@NetworkChuck",
+   "url": "",
+   "name": "NetworkChuck",
+   "topic": "security",
+   "tags": [
+    "cybersecurity",
+    "cloud"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 28,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UC4QZ_LsYcvcq7qOsOhpAX4A",
+   "handle": "@ColdFusion",
+   "url": "",
+   "name": "ColdFusion",
+   "topic": "tech",
+   "tags": [
+    "ai",
+    "startups"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 29,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCKy1dAqELo0zrOtPkf0eTMw",
+   "handle": "@IGN",
+   "url": "",
+   "name": "IGN",
+   "topic": "gaming",
+   "tags": [
+    "video games"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 30,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "youtube",
+   "id": "UCLA_DiR1FfKNvjuUpBHmylQ",
+   "handle": "@NASA",
+   "url": "",
+   "name": "NASA",
+   "topic": "science",
+   "tags": [
+    "space"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 31,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "xqc",
+   "url": "",
+   "name": "xQc",
+   "topic": "gaming",
+   "tags": [
+    "video games"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 1,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "shroud",
+   "url": "",
+   "name": "shroud",
+   "topic": "gaming",
+   "tags": [
+    "video games",
+    "esports"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 2,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "kaicenat",
+   "url": "",
+   "name": "Kai Cenat",
+   "topic": "gaming",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 3,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "theprimeagen",
+   "url": "",
+   "name": "ThePrimeagen",
+   "topic": "tech",
+   "tags": [
+    "programming",
+    "software development"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 5,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "hasanabi",
+   "url": "",
+   "name": "HasanAbi",
+   "topic": "news",
+   "tags": [
+    "politics"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 6,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "riotgames",
+   "url": "",
+   "name": "Riot Games",
+   "topic": "gaming",
+   "tags": [
+    "esports"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 7,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "eslcs",
+   "url": "",
+   "name": "ESL Counter-Strike",
+   "topic": "gaming",
+   "tags": [
+    "esports"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 8,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "twitch",
+   "id": "",
+   "handle": "nasa",
+   "url": "",
+   "name": "NASA",
+   "topic": "science",
+   "tags": [
+    "space"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 9,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "telegram",
+   "id": "",
+   "handle": "@durov",
+   "url": "",
+   "name": "Durov's Channel",
+   "topic": "tech",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 1,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "telegram",
+   "id": "",
+   "handle": "@telegram",
+   "url": "",
+   "name": "Telegram News",
+   "topic": "tech",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 2,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "telegram",
+   "id": "",
+   "handle": "@ajanews",
+   "url": "",
+   "name": "Al Jazeera Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "Qatar",
+   "rank": 3,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "telegram",
+   "id": "",
+   "handle": "@alarabiya",
+   "url": "",
+   "name": "Al Arabiya",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "UAE",
+   "rank": 5,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "telegram",
+   "id": "",
+   "handle": "@bbcarabic",
+   "url": "",
+   "name": "BBC News Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "International",
+   "rank": 7,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "telegram",
+   "id": "",
+   "handle": "@AsharqNews",
+   "url": "",
+   "name": "Asharq News",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "Saudi Arabia",
+   "rank": 9,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://files.hosting.thmanyah.com/podcasts/87/1713892895500-429/rss-feed.rss",
+   "name": "سقراط",
+   "topic": "business",
+   "tags": [
+    "economy"
+   ],
+   "language": "ar",
+   "country": "Saudi Arabia",
+   "rank": 3,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://feeds.simplecast.com/Sl5CSM3S",
+   "name": "The Daily",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 4,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://lexfridman.com/feed/podcast/",
+   "name": "Lex Fridman Podcast",
+   "topic": "tech",
+   "tags": [
+    "ai"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 5,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://feeds.simplecast.com/6HKOhNgS",
+   "name": "Hard Fork",
+   "topic": "tech",
+   "tags": [
+    "ai"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 6,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://feeds.npr.org/510289/podcast.xml",
+   "name": "Planet Money",
+   "topic": "business",
+   "tags": [
+    "economy"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 7,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://podcast.darknetdiaries.com",
+   "name": "Darknet Diaries",
+   "topic": "security",
+   "tags": [
+    "cybersecurity"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 8,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://feeds.transistor.fm/acquired",
+   "name": "Acquired",
+   "topic": "business",
+   "tags": [
+    "startups"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 9,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://feeds.megaphone.fm/vergecast",
+   "name": "The Vergecast",
+   "topic": "tech",
+   "tags": [
+    "gadgets"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 10,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+   "name": "Global News Podcast",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 11,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "podcast",
+   "id": "",
+   "handle": "",
+   "url": "https://pinecast.com/feed/syntax",
+   "name": "Syntax",
+   "topic": "tech",
+   "tags": [
+    "programming",
+    "software development"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 12,
+   "verified": "2026-10-30"
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@AJArabic",
+   "url": "",
+   "name": "Al Jazeera Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "Qatar",
+   "rank": 1,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@AlArabiya",
+   "url": "",
+   "name": "Al Arabiya",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "UAE",
+   "rank": 2,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@skynewsarabia",
+   "url": "",
+   "name": "Sky News Arabia",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "UAE",
+   "rank": 3,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@BBCArabic",
+   "url": "",
+   "name": "BBC News Arabic",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "International",
+   "rank": 4,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@youm7",
+   "url": "",
+   "name": "Youm7",
+   "topic": "news",
+   "tags": [],
+   "language": "ar",
+   "country": "Egypt",
+   "rank": 5,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@AhramOnline",
+   "url": "",
+   "name": "Ahram Online",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "Egypt",
+   "rank": 6,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@Reuters",
+   "url": "",
+   "name": "Reuters",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 7,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@BBCBreaking",
+   "url": "",
+   "name": "BBC Breaking News",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 8,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@AJEnglish",
+   "url": "",
+   "name": "Al Jazeera English",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 9,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@AP",
+   "url": "",
+   "name": "The Associated Press",
+   "topic": "news",
+   "tags": [],
+   "language": "en",
+   "country": "International",
+   "rank": 10,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@TechCrunch",
+   "url": "",
+   "name": "TechCrunch",
+   "topic": "tech",
+   "tags": [
+    "startups",
+    "ai"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 11,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@verge",
+   "url": "",
+   "name": "The Verge",
+   "topic": "tech",
+   "tags": [
+    "gadgets"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 12,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@OpenAI",
+   "url": "",
+   "name": "OpenAI",
+   "topic": "tech",
+   "tags": [
+    "ai"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 13,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@AnthropicAI",
+   "url": "",
+   "name": "Anthropic",
+   "topic": "tech",
+   "tags": [
+    "ai"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 14,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@business",
+   "url": "",
+   "name": "Bloomberg",
+   "topic": "business",
+   "tags": [
+    "economy",
+    "markets"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 15,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@NASA",
+   "url": "",
+   "name": "NASA",
+   "topic": "science",
+   "tags": [
+    "space"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 16,
+   "verified": false
+  },
+  {
+   "platform": "x",
+   "id": "",
+   "handle": "@IGN",
+   "url": "",
+   "name": "IGN",
+   "topic": "gaming",
+   "tags": [
+    "video games"
+   ],
+   "language": "en",
+   "country": "International",
+   "rank": 17,
+   "verified": false
+  }
+ ],
+ "sig": "j03D14hfXZ2+SL7GBdaRQhfEo+h92BvY++YF526kPUDfITJ9aHNbhDg8wT0csACBFqJeesH9TnO8zpGO7O/vCA=="
+}
