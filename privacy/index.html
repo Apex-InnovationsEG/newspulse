@@ -78,8 +78,8 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
   <section class="band">
     <div class="wrap head">
       <h1>Privacy <span class="hl">policy</span></h1>
-      <p class="lede">NewsPulse is a desktop app for Windows. It keeps your data on your own PC. If you choose to sync, it puts an encrypted copy in your own Google Drive. We don't collect anything about you.</p>
-      <p class="meta">Last updated 28 October 2026 · Apex Innovations</p>
+      <p class="lede">NewsPulse is a desktop app for Windows. It keeps your data on your own PC. If you sign in with Google, it keeps an encrypted copy in your own Google Drive. We don't collect anything about you: our licence server keeps only a licence's or trial's ID, dates and hashes of the PCs using it.</p>
+      <p class="meta">Last updated 30 October 2026 · Apex Innovations</p>
     </div>
   </section>
 
@@ -91,21 +91,23 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
         <li>Your account: a username and a hashed password (never the password itself), and your recovery code's hash.</li>
         <li>Your setup: settings, topics, sources, saved posts and links with your notes, Saved lists, calendar, Event Pulse pages and your Markets list.</li>
         <li>What NewsPulse collects for you: posts, videos and articles from the sources you add, and small copies of their pictures.</li>
-        <li>The credentials you enter (API keys, tokens, sign-ins for the live view), encrypted with a key kept in the same folder.</li>
+        <li>The credentials you enter (API keys and tokens), encrypted with a key kept in the same folder.</li>
         <li>If you sign in with Google: your Google account's email and name, and Google's sign-in token, encrypted and protected by Windows.</li>
+        <li>If you sign in to Telegram: Telegram's session for this PC, encrypted and protected by Windows. It never leaves this PC.</li>
+        <li>Your licence's state on this PC (plan, dates, the server's signed answer) and the trial record.</li>
         <li>Logs, kept on your PC for fixing problems. They never contain your passwords, codes or tokens.</li>
       </ul>
-      <p>Nothing in this folder is sent to us. We have no servers that receive your data.</p>
+      <p>Nothing in this folder is sent to us. Our only server is the licence server, below, and it never receives your data.</p>
     </section>
 
     <section class="card" aria-labelledby="drive">
-      <h2 id="drive"><i class="tag" style="background:var(--topics)"></i>What goes to your Google Drive (only if you sync)</h2>
-      <p>Sync is optional. You can use NewsPulse without Google.</p>
+      <h2 id="drive"><i class="tag" style="background:var(--topics)"></i>What goes to your Google Drive (only if you sign in with Google)</h2>
+      <p>Google is optional. A local account keeps everything on this PC only. When you sign in with Google, you agree that NewsPulse keeps your setup synced in your own Drive: that is what the Google sign-in is for, and NewsPulse asks you to choose a sync password before it starts. To stop syncing, switch to a local account (Settings, Advanced, Account).</p>
       <ul>
         <li><strong>Encrypted on your PC first.</strong> Your setup is encrypted (AES-256-GCM, with a key made from your sync password) before it leaves the PC. Google, and we, can't read it. Only each copy's date, size and the name of the PC that saved it can be read, so another PC can say which copy it found.</li>
         <li><strong>In your own Drive, in its hidden app folder.</strong> The copy goes to your Google Drive's hidden app data folder, which only NewsPulse can see. It doesn't appear in your Drive's file list and isn't shared with anyone.</li>
         <li><strong>What it holds:</strong> your setup (settings, topics, sources, saved items and notes, lists, calendar, Event Pulse pages, Markets list, look), your API keys and tokens, and your licence key. It keeps the last 30 versions so you can go back.</li>
-        <li><strong>What it never holds:</strong> your NewsPulse password, your sync password, your Google sign-in, LinkedIn and Facebook sign-ins, the trial record, caches and pictures.</li>
+        <li><strong>What it never holds:</strong> your NewsPulse password, your sync password, your Google sign-in, your Telegram sign-in, this PC's licence activation, the trial record, caches and pictures.</li>
         <li><strong>What NewsPulse asks Google for:</strong> your email address and basic profile (to show which account you signed in with) and access to its own hidden app folder in your Drive. Nothing else in your Drive: it can't see your files, photos or mail.</li>
       </ul>
       <p>If you forget your sync password, the cloud copy can't be opened by anyone, including us.</p>
@@ -114,8 +116,29 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
 
     <section class="card" aria-labelledby="sources">
       <h2 id="sources"><i class="tag" style="background:var(--events)"></i>What goes to news, price and update sources</h2>
-      <p>To fill your feed, NewsPulse asks the sites, feeds and platforms you add for their latest posts, the same way a browser would. For the Markets list it asks price sources for prices, and it checks our release page for new versions.</p>
+      <p>To fill your feed, NewsPulse asks the sites, feeds and platforms you add for their latest posts, the same way a browser would. For the Markets list it asks price sources for prices, and it checks our release page for new versions. To find a podcast by name, it sends the name you type to Apple's podcast search.</p>
       <p>These are plain requests for public information. NewsPulse doesn't send your name, email, account or any of your data with them. Like any request on the internet, the site you ask can see your PC's network address.</p>
+    </section>
+
+    <section class="card" aria-labelledby="licence">
+      <h2 id="licence"><i class="tag" style="background:var(--events)"></i>What goes to our licence server</h2>
+      <p>NewsPulse checks the free trial and Pro licences with a small server of ours, run on Cloudflare Workers. It sends only what the check needs:</p>
+      <ul>
+        <li><strong>The trial:</strong> a hash of this PC's Windows machine ID and, if you signed in with Google, a hash of your Google account's ID (never your email or name). The server keeps those hashes with the trial's start and end dates, so one trial is shared by up to 3 PCs.</li>
+        <li><strong>Pro:</strong> your licence key, so the server can check it, a hash of this PC's machine ID and this PC's name, so you can tell your PCs apart on the Licence page. The server keeps the key's ID (never the key itself), its plan and dates, and for each PC its hash, name, when it was activated and when it last checked (about every 30 days).</li>
+        <li><strong>Never:</strong> your name, email, setup, posts or anything from your feed. The server doesn't keep your network address; it counts requests by a hash of it to stop abuse.</li>
+      </ul>
+      <p>Keys locked to PC codes are checked on the PC and never reach the server. To have a key's or trial's record removed, email us.</p>
+    </section>
+
+    <section class="card" aria-labelledby="telegram">
+      <h2 id="telegram"><i class="tag" style="background:var(--feed)"></i>Telegram (only if you add it)</h2>
+      <ul>
+        <li>You sign in with your own Telegram account, inside NewsPulse, through Telegram's official API. Your phone number, the login code and your two-step password go only to Telegram. NewsPulse never stores the code or the password.</li>
+        <li>NewsPulse reads only the public channels you pick. It never reads your private chats, groups or contacts. "Import channels I've joined" lists public channels only.</li>
+        <li>Telegram's session stays on this PC, encrypted and protected by Windows. It is never synced or put in a backup. Signing out of Telegram in NewsPulse removes it.</li>
+        <li>As Telegram's terms require, public channels may show Telegram's sponsored messages, marked "Sponsored". NewsPulse keeps their pictures and videos on your PC only while they are shown, and tells Telegram when one is shown, clicked or reported, as Telegram's own apps do. We get nothing from this.</li>
+      </ul>
     </section>
 
     <section class="card" aria-labelledby="tracking">
@@ -127,7 +150,9 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
       <h2 id="delete"><i class="tag" style="background:var(--topics)"></i>How to delete your data</h2>
       <ul>
         <li><strong>On your PC:</strong> uninstall NewsPulse (Windows Settings, Apps, Installed apps, NewsPulse) and answer Yes to "Also delete my data?". Or delete the folder <code>%LOCALAPPDATA%\NewsPulse</code> after quitting NewsPulse from the tray.</li>
-        <li><strong>The cloud copy:</strong> in NewsPulse, open Settings, Advanced, Account and choose "Delete my cloud data". You have 7 days to undo it; after that it is gone. Deleting the cloud copy never deletes what's on your PC unless you also choose that.</li>
+        <li><strong>The cloud copy:</strong> in NewsPulse, open Settings, Advanced, Account and choose "Delete my cloud data". Choose "Delete in 7 days", which you can undo until then, or "Delete now". Deleting the cloud copy never deletes what's on your PC unless you also choose that.</li>
+        <li><strong>Telegram:</strong> sign out of Telegram in NewsPulse; you can also end the session from Telegram's own app (Settings, Devices).</li>
+        <li><strong>The licence server's record:</strong> remove a PC from Settings, Advanced, Licence, or email us to remove a key's or trial's record.</li>
         <li><strong>From Google's side:</strong> in Google Drive on the web, open Settings, Manage apps, find NewsPulse, then choose Options and "Delete hidden app data". You can also remove NewsPulse's access to your account at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
       </ul>
     </section>
