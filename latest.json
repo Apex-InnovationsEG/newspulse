@@ -1,9 +1,9 @@
 {
-  "version": "0.7.4",
+  "version": "0.7.5",
   "url": "https://github.com/Apex-InnovationsEG/newspulse/releases/latest/download/NewsPulse-Setup.exe",
-  "size": 72829784,
-  "sha256": "DD294742CBEE32553035CA548104285FD2415DC790EF7C7FC0FD614A63628A0F",
-  "notes": "NewsPulse 0.7.4: sign in with Google and keep your setup synced and backed up in your own Google Drive (encrypted); a Markets panel with currencies, gold and silver; custom lists for saved posts; sharper hero pictures; videos that adapt to company networks; feeds found for 250+ news sites; clearer loading signs.",
-  "published": "2026-10-30T00:21:04+00:00",
-  "sig": "ddZ2qjstl4u0dMKecdTYRGrMwfxfISssRDS7sc0NsSRhnsMk0vbxwV3podjiwfpxtxCtGXBZp3KkpTKtm39RDQ=="
+  "size": 78159843,
+  "sha256": "731AA3D0B076051D0296726F08981D7AE9A01E458D83C7DC1476BA55DA325082",
+  "notes": "NewsPulse 0.7.5: Pro on up to 3 PCs and a 14-day trial, both checked online; a new sign-in page and wordmark; Google sign-in now always syncs; a new setup wizard with a page for each source and suggestions for your topics and country; Podcasts; Telegram through your own account; real YouTube covers; a pinned header and one layout for every page; quiet sources keep their newest posts; LinkedIn and Facebook removed.",
+  "published": "2026-10-31T18:11:07+00:00",
+  "sig": "uShqzaezQHUlO55Zk/TnKvoJRVb2BPF9wKzXrqqCishlKJZl7dZaVvQrJx1SRlYTPAY+FPhmI2jEIMLr/RRODQ=="
 }
