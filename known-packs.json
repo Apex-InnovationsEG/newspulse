@@ -1,0 +1,1627 @@
+{
+ "v": 1,
+ "updated": "2026-11-24",
+ "packs": [
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "MIT Technology Review AI",
+   "site": "technologyreview.com",
+   "feed": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+  },
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "TechCrunch AI",
+   "site": "techcrunch.com",
+   "feed": "https://techcrunch.com/category/artificial-intelligence/feed/"
+  },
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "The Verge AI",
+   "site": "theverge.com",
+   "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+  },
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "Ars Technica AI",
+   "site": "arstechnica.com",
+   "feed": "https://arstechnica.com/ai/feed/"
+  },
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "en",
+   "priority": 6,
+   "name": "Hugging Face Blog",
+   "site": "huggingface.co",
+   "feed": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "en",
+   "priority": 7,
+   "name": "Google AI Blog",
+   "site": "blog.google",
+   "feed": "https://blog.google/technology/ai/rss/"
+  },
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "en",
+   "priority": 8,
+   "name": "OpenAI News",
+   "site": "openai.com",
+   "feed": "https://openai.com/news/rss.xml"
+  },
+  {
+   "interest": "ai",
+   "type": "web",
+   "language": "ar",
+   "priority": 2,
+   "name": "عالم التقنية",
+   "site": "tech-wd.com",
+   "feed": "https://www.tech-wd.com/wd/feed/"
+  },
+  {
+   "interest": "ai",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "Two Minute Papers",
+   "handle": "@TwoMinutePapers",
+   "id": "UCbfYPyITQ-7l4upoX8nvctg"
+  },
+  {
+   "interest": "ai",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Yannic Kilcher",
+   "handle": "@YannicKilcher",
+   "id": "UCZHmQk67mSJgfCCTn7xBfew"
+  },
+  {
+   "interest": "ai",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Matt Wolfe",
+   "handle": "@mreflow",
+   "id": "UChpleBmo18P08aKCIgti38g"
+  },
+  {
+   "interest": "ai",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "AI Explained",
+   "handle": "@aiexplained-official",
+   "id": "UCNJ1Ymd5yFuUPtn21xtRbbw"
+  },
+  {
+   "interest": "ai",
+   "type": "youtube",
+   "language": "en",
+   "priority": 5,
+   "name": "Lex Fridman",
+   "handle": "@lexfridman",
+   "id": "UCSHZKyawb77ixDdsGog4iWA"
+  },
+  {
+   "interest": "ai",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "الدحيح",
+   "handle": "@ElDa7ee7",
+   "id": "UCCl3WnSi8qMkXHtSGM4D59A"
+  },
+  {
+   "interest": "ai",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "Hard Fork",
+   "feed": "https://feeds.simplecast.com/l2i9YnTd"
+  },
+  {
+   "interest": "ai",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "The TWIML AI Podcast",
+   "feed": "https://feeds.megaphone.fm/MLN2155636147"
+  },
+  {
+   "interest": "ai",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "Lex Fridman Podcast",
+   "feed": "https://lexfridman.com/feed/podcast/"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "The Verge",
+   "site": "theverge.com",
+   "feed": "https://www.theverge.com/rss/index.xml"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "Ars Technica",
+   "site": "arstechnica.com",
+   "feed": "https://feeds.arstechnica.com/arstechnica/index"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "TechCrunch",
+   "site": "techcrunch.com",
+   "feed": "https://techcrunch.com/feed/"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "Engadget",
+   "site": "engadget.com",
+   "feed": "https://www.engadget.com/rss.xml"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "Wired",
+   "site": "wired.com",
+   "feed": "https://www.wired.com/feed/rss"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "en",
+   "priority": 6,
+   "name": "ZDNET",
+   "site": "zdnet.com",
+   "feed": "https://www.zdnet.com/news/rss.xml"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "en",
+   "priority": 7,
+   "name": "Rest of World",
+   "site": "restofworld.org",
+   "feed": "https://restofworld.org/feed/latest/"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "ar",
+   "priority": 2,
+   "name": "عالم التقنية",
+   "site": "tech-wd.com",
+   "feed": "https://www.tech-wd.com/wd/feed/"
+  },
+  {
+   "interest": "technology",
+   "type": "web",
+   "language": "ar",
+   "priority": 4,
+   "name": "Unlimit Tech",
+   "site": "unlimit-tech.com",
+   "feed": "https://unlimit-tech.com/feed/"
+  },
+  {
+   "interest": "technology",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "Marques Brownlee",
+   "handle": "@mkbhd",
+   "id": "UCBJycsmduvYEL83R_U4JriQ"
+  },
+  {
+   "interest": "technology",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Linus Tech Tips",
+   "handle": "@LinusTechTips",
+   "id": "UCXuqSBlHAE6Xw-yeJA0Tunw"
+  },
+  {
+   "interest": "technology",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "The Verge",
+   "handle": "@TheVerge",
+   "id": "UCddiUEpeqJcYeBxX1IVBKvQ"
+  },
+  {
+   "interest": "technology",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "Fireship",
+   "handle": "@Fireship",
+   "id": "UCsBjURrPoezykLs9EqgamOA"
+  },
+  {
+   "interest": "technology",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "Faisal Alsaif",
+   "handle": "@FaisalAlsaif",
+   "id": "UC3yVdHtZ-681V7Tr2u7NCWg"
+  },
+  {
+   "interest": "technology",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 2,
+   "name": "Tech Sayed",
+   "handle": "@TechSayed",
+   "id": "UChF_sXx89oVo_M2BEPRFYMw"
+  },
+  {
+   "interest": "technology",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "Darknet Diaries",
+   "feed": "https://podcast.darknetdiaries.com/"
+  },
+  {
+   "interest": "technology",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "The Vergecast",
+   "feed": "https://feeds.megaphone.fm/vergecast"
+  },
+  {
+   "interest": "technology",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "Accidental Tech Podcast",
+   "feed": "https://atp.fm/rss"
+  },
+  {
+   "interest": "technology",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "Syntax",
+   "feed": "https://feed.syntax.fm/"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "BleepingComputer",
+   "site": "bleepingcomputer.com",
+   "feed": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "The Hacker News",
+   "site": "thehackernews.com",
+   "feed": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "Krebs on Security",
+   "site": "krebsonsecurity.com",
+   "feed": "https://krebsonsecurity.com/feed/"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "Dark Reading",
+   "site": "darkreading.com",
+   "feed": "https://www.darkreading.com/rss.xml"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "Schneier on Security",
+   "site": "schneier.com",
+   "feed": "https://www.schneier.com/feed/atom/"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "web",
+   "language": "en",
+   "priority": 6,
+   "name": "SecurityWeek",
+   "site": "securityweek.com",
+   "feed": "https://www.securityweek.com/feed/"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "web",
+   "language": "ar",
+   "priority": 1,
+   "name": "سمكس",
+   "site": "smex.org",
+   "feed": "https://smex.org/ar/feed/"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "NetworkChuck",
+   "handle": "@NetworkChuck",
+   "id": "UC9x0AN7BWHpCDHSm9NiJFJQ"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "John Hammond",
+   "handle": "@_JohnHammond",
+   "id": "UCVeW9qkBjo3zosnqUbG7CFw"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "LiveOverflow",
+   "handle": "@LiveOverflow",
+   "id": "UClcE-kVhqyiHCcjYwcpfj9w"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "Computerphile",
+   "handle": "@Computerphile",
+   "id": "UC9-y-6csu5WGm29I7JiwpnA"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "سمكس",
+   "handle": "@SMEXorg",
+   "id": "UC7JLZT-cAa0PjhGe2hG7AUQ"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "Darknet Diaries",
+   "feed": "https://podcast.darknetdiaries.com/"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "Security Now",
+   "feed": "https://feeds.twit.tv/sn.xml"
+  },
+  {
+   "interest": "cybersecurity",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "Risky Business",
+   "feed": "https://risky.biz/feeds/risky-business/"
+  },
+  {
+   "interest": "crypto",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "CoinDesk",
+   "site": "coindesk.com",
+   "feed": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+  },
+  {
+   "interest": "crypto",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "Cointelegraph",
+   "site": "cointelegraph.com",
+   "feed": "https://cointelegraph.com/rss"
+  },
+  {
+   "interest": "crypto",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "Decrypt",
+   "site": "decrypt.co",
+   "feed": "https://decrypt.co/feed"
+  },
+  {
+   "interest": "crypto",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "The Block",
+   "site": "theblock.co",
+   "feed": "https://www.theblock.co/rss.xml"
+  },
+  {
+   "interest": "crypto",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "Bitcoin Magazine",
+   "site": "bitcoinmagazine.com",
+   "feed": "https://bitcoinmagazine.com/feed"
+  },
+  {
+   "interest": "crypto",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "Coin Bureau",
+   "handle": "@CoinBureau",
+   "id": "UCqK_GSMbpiV8spgD3ZGloSw"
+  },
+  {
+   "interest": "crypto",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Bankless",
+   "handle": "@Bankless",
+   "id": "UCAl9Ld79qaZxp9JzEOwd3aA"
+  },
+  {
+   "interest": "crypto",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Whiteboard Crypto",
+   "handle": "@WhiteboardCrypto",
+   "id": "UCsYYksPHiGqXHPoHI-fm5sg"
+  },
+  {
+   "interest": "crypto",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "Unchained",
+   "feed": "https://unchained.libsyn.com/unchained"
+  },
+  {
+   "interest": "crypto",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "Empire",
+   "feed": "https://feeds.megaphone.fm/empire"
+  },
+  {
+   "interest": "economy",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "CNBC Economy",
+   "site": "cnbc.com",
+   "feed": "https://www.cnbc.com/id/20910258/device/rss/rss.html"
+  },
+  {
+   "interest": "economy",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "The Economist Finance",
+   "site": "economist.com",
+   "feed": "https://www.economist.com/finance-and-economics/rss.xml"
+  },
+  {
+   "interest": "economy",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "Financial Times",
+   "site": "ft.com",
+   "feed": "https://www.ft.com/rss/home"
+  },
+  {
+   "interest": "economy",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "MarketWatch",
+   "site": "marketwatch.com",
+   "feed": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+  },
+  {
+   "interest": "economy",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "CNBC",
+   "handle": "@CNBC",
+   "id": "UCvJJ_dzjViJCoLf5uKUTwoA"
+  },
+  {
+   "interest": "economy",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Bloomberg Television",
+   "handle": "@markets",
+   "id": "UCIALMKvObZNtJ6AmdCLP7Lg"
+  },
+  {
+   "interest": "economy",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Economics Explained",
+   "handle": "@EconomicsExplained",
+   "id": "UCZ4AMrDcNrfy3X6nsU8-rPg"
+  },
+  {
+   "interest": "economy",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "The Economist",
+   "handle": "@TheEconomist",
+   "id": "UC0p5jTq6Xx_DosDFxVXnWaQ"
+  },
+  {
+   "interest": "economy",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "الشرق للأخبار",
+   "handle": "@AsharqNews",
+   "id": "UCRJUVYt9gjg8MnlGacySUdg"
+  },
+  {
+   "interest": "economy",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 2,
+   "name": "العربية Business",
+   "handle": "@AlArabiyaBusiness",
+   "id": "UC0mthbFRIm_uYkkzMX09sJw"
+  },
+  {
+   "interest": "economy",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "Planet Money",
+   "feed": "https://feeds.npr.org/510289/podcast.xml"
+  },
+  {
+   "interest": "economy",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "Odd Lots",
+   "feed": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss"
+  },
+  {
+   "interest": "business",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "Fortune",
+   "site": "fortune.com",
+   "feed": "https://fortune.com/feed/"
+  },
+  {
+   "interest": "business",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "Business Insider",
+   "site": "businessinsider.com",
+   "feed": "https://feeds.businessinsider.com/custom/all"
+  },
+  {
+   "interest": "business",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "Inc.",
+   "site": "inc.com",
+   "feed": "https://www.inc.com/rss/"
+  },
+  {
+   "interest": "business",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "Wamda",
+   "site": "wamda.com",
+   "feed": "https://www.wamda.com/feed"
+  },
+  {
+   "interest": "business",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "MENAbytes",
+   "site": "menabytes.com",
+   "feed": "https://www.menabytes.com/feed/"
+  },
+  {
+   "interest": "business",
+   "type": "web",
+   "language": "ar",
+   "priority": 3,
+   "name": "جريدة حابي",
+   "site": "hapijournal.com",
+   "feed": "https://hapijournal.com/feed/"
+  },
+  {
+   "interest": "business",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "Y Combinator",
+   "handle": "@ycombinator",
+   "id": "UCcefcZRL2oaA_uBNeo5UOWg"
+  },
+  {
+   "interest": "business",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Harvard Business Review",
+   "handle": "@harvardbusinessreview",
+   "id": "UCWo4IA01TXzBeGJJKWHOG9g"
+  },
+  {
+   "interest": "business",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Bloomberg Originals",
+   "handle": "@business",
+   "id": "UCUMZ7gohGI9HcU9VNsr2FJQ"
+  },
+  {
+   "interest": "business",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "الاقتصادية CNN",
+   "handle": "@cnnbusinessar",
+   "id": "UCD9r4xLAK7hdlrqGB2lb2yg"
+  },
+  {
+   "interest": "business",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 2,
+   "name": "صحيفة مال",
+   "handle": "@maaalnews",
+   "id": "UCdG6jvrAkG_Qizn0ZuHf5MQ"
+  },
+  {
+   "interest": "business",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 3,
+   "name": "إيكونومي بلس",
+   "handle": "@EconomyPlus",
+   "id": "UCaG1T_E2kASjSxv_-CCuMLw"
+  },
+  {
+   "interest": "business",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 4,
+   "name": "جريدة حابي",
+   "handle": "@HapiJournal",
+   "id": "UCubgVTvvmlfw9P7q3cxoPRQ"
+  },
+  {
+   "interest": "business",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "How I Built This",
+   "feed": "https://rss.art19.com/how-i-built-this"
+  },
+  {
+   "interest": "business",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "Masters of Scale",
+   "feed": "https://rss.art19.com/masters-of-scale"
+  },
+  {
+   "interest": "business",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "My First Million",
+   "feed": "https://feeds.megaphone.fm/HS2300184645"
+  },
+  {
+   "interest": "business",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "Acquired",
+   "feed": "https://feeds.transistor.fm/acquired"
+  },
+  {
+   "interest": "sports",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "BBC Sport",
+   "site": "bbc.co.uk",
+   "feed": "https://feeds.bbci.co.uk/sport/rss.xml"
+  },
+  {
+   "interest": "sports",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "ESPN",
+   "site": "espn.com",
+   "feed": "https://www.espn.com/espn/rss/news"
+  },
+  {
+   "interest": "sports",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "The Guardian Football",
+   "site": "theguardian.com",
+   "feed": "https://www.theguardian.com/football/rss"
+  },
+  {
+   "interest": "sports",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "Sky Sports",
+   "site": "skysports.com",
+   "feed": "https://www.skysports.com/rss/12040"
+  },
+  {
+   "interest": "sports",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "CBS Sports",
+   "site": "cbssports.com",
+   "feed": "https://www.cbssports.com/rss/headlines/"
+  },
+  {
+   "interest": "sports",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "ESPN FC",
+   "handle": "@ESPNFC",
+   "id": "UC6c1z7bA__85CIWZ_jpCK-Q"
+  },
+  {
+   "interest": "sports",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Sky Sports Football",
+   "handle": "@SkySportsFootball",
+   "id": "UCZ7wY7MRDSygp63HIEfdQZA"
+  },
+  {
+   "interest": "sports",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Premier League",
+   "handle": "@premierleague",
+   "id": "UCG5qGWdu8nIRZqJ_GgDwQ-w"
+  },
+  {
+   "interest": "sports",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "FIFA",
+   "handle": "@fifa",
+   "id": "UCpcTrCXblq78GZrTUTLWeBw"
+  },
+  {
+   "interest": "sports",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "beIN SPORTS العربية",
+   "handle": "@beINSPORTS",
+   "id": "UCJUCcJUeh0Cz2xyKwkw5Q1w"
+  },
+  {
+   "interest": "sports",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "Football Weekly",
+   "feed": "https://www.theguardian.com/football/series/footballweekly/podcast.xml"
+  },
+  {
+   "interest": "sports",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "The Bill Simmons Podcast",
+   "feed": "https://feeds.megaphone.fm/the-bill-simmons-podcast"
+  },
+  {
+   "interest": "sports",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "Stumped",
+   "feed": "https://podcasts.files.bbci.co.uk/p02gsrmh.rss"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "BBC News",
+   "site": "bbc.co.uk",
+   "feed": "https://feeds.bbci.co.uk/news/world/rss.xml"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "The Guardian World",
+   "site": "theguardian.com",
+   "feed": "https://www.theguardian.com/world/rss"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "NPR World",
+   "site": "npr.org",
+   "feed": "https://feeds.npr.org/1004/rss.xml"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "France 24",
+   "site": "france24.com",
+   "feed": "https://www.france24.com/en/rss"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "en",
+   "priority": 6,
+   "name": "Deutsche Welle",
+   "site": "dw.com",
+   "feed": "https://rss.dw.com/rdf/rss-en-all"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "en",
+   "priority": 7,
+   "name": "Foreign Policy",
+   "site": "foreignpolicy.com",
+   "feed": "https://foreignpolicy.com/feed/"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "ar",
+   "priority": 2,
+   "name": "بي بي سي عربي",
+   "site": "bbc.com",
+   "feed": "https://feeds.bbci.co.uk/arabic/rss.xml"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "ar",
+   "priority": 3,
+   "name": "سكاي نيوز عربية",
+   "site": "skynewsarabia.com",
+   "feed": "https://www.skynewsarabia.com/rss.xml"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "ar",
+   "priority": 4,
+   "name": "دويتشه فيله عربية",
+   "site": "dw.com",
+   "feed": "https://rss.dw.com/rdf/rss-ar-all"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "ar",
+   "priority": 5,
+   "name": "فرانس 24 عربي",
+   "site": "france24.com",
+   "feed": "https://www.france24.com/ar/rss"
+  },
+  {
+   "interest": "world",
+   "type": "web",
+   "language": "ar",
+   "priority": 6,
+   "name": "مصراوي",
+   "site": "masrawy.com",
+   "feed": "https://www.masrawy.com/rss/feed/25/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "Al Jazeera English",
+   "handle": "@aljazeeraenglish",
+   "id": "UCNye-wNBqNL5ZzHSJj3l8Bg"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "BBC News",
+   "handle": "@BBCNews",
+   "id": "UC16niRr50-MSBwiO3YDb3RA"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "DW News",
+   "handle": "@dwnews",
+   "id": "UCknLrEdhRCp1aegoMqRaCZg"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "Vox",
+   "handle": "@Vox",
+   "id": "UCLXo7UDZvByw2ixzpQCufnA"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "الجزيرة",
+   "handle": "@aljazeera",
+   "id": "UCfiwzLy-8yKzIbsmZTzxDgw"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 2,
+   "name": "العربية",
+   "handle": "@AlArabiya",
+   "id": "UCahpxixMCwoANAftn6IxkTg"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 3,
+   "name": "سكاي نيوز عربية",
+   "handle": "@skynewsarabia",
+   "id": "UCIJXOvggjKtCagMfxvcCzAA"
+  },
+  {
+   "interest": "world",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 4,
+   "name": "BBC News عربي",
+   "handle": "@BBCNewsArabic",
+   "id": "UCelk6aHijZq-GJBBB9YpReA"
+  },
+  {
+   "interest": "world",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "The Daily",
+   "feed": "https://feeds.simplecast.com/54nAGcIl"
+  },
+  {
+   "interest": "world",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "Up First",
+   "feed": "https://feeds.npr.org/510318/podcast.xml"
+  },
+  {
+   "interest": "world",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "Global News Podcast",
+   "feed": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss"
+  },
+  {
+   "interest": "world",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "The Inquiry",
+   "feed": "https://podcasts.files.bbci.co.uk/p029399x.rss"
+  },
+  {
+   "interest": "science",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "NASA",
+   "site": "nasa.gov",
+   "feed": "https://www.nasa.gov/feed/"
+  },
+  {
+   "interest": "science",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "Science News",
+   "site": "sciencenews.org",
+   "feed": "https://www.sciencenews.org/feed"
+  },
+  {
+   "interest": "science",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "Space.com",
+   "site": "space.com",
+   "feed": "https://www.space.com/feeds/all"
+  },
+  {
+   "interest": "science",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "Scientific American",
+   "site": "scientificamerican.com",
+   "feed": "https://www.scientificamerican.com/platform/syndication/rss/"
+  },
+  {
+   "interest": "science",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "Nature News",
+   "site": "nature.com",
+   "feed": "https://www.nature.com/nature.rss"
+  },
+  {
+   "interest": "science",
+   "type": "web",
+   "language": "en",
+   "priority": 7,
+   "name": "Live Science",
+   "site": "livescience.com",
+   "feed": "https://www.livescience.com/feeds/all"
+  },
+  {
+   "interest": "science",
+   "type": "web",
+   "language": "ar",
+   "priority": 2,
+   "name": "العلوم الحقيقية",
+   "site": "real-sciences.com",
+   "feed": "https://real-sciences.com/feed"
+  },
+  {
+   "interest": "science",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "Kurzgesagt",
+   "handle": "@kurzgesagt",
+   "id": "UCsXVk37bltHxD1rDPwtNM8Q"
+  },
+  {
+   "interest": "science",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Veritasium",
+   "handle": "@veritasium",
+   "id": "UCHnyfMqiRRG1u-2MsSQLbXA"
+  },
+  {
+   "interest": "science",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "NASA",
+   "handle": "@NASA",
+   "id": "UCLA_DiR1FfKNvjuUpBHmylQ"
+  },
+  {
+   "interest": "science",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "SciShow",
+   "handle": "@SciShow",
+   "id": "UCZYTClx2T1of7BRZ86-8fow"
+  },
+  {
+   "interest": "science",
+   "type": "youtube",
+   "language": "en",
+   "priority": 5,
+   "name": "Vsauce",
+   "handle": "@Vsauce",
+   "id": "UC6nSFpj9HTCZ5t-N3Rm3-HA"
+  },
+  {
+   "interest": "science",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "الدحيح",
+   "handle": "@ElDa7ee7",
+   "id": "UCCl3WnSi8qMkXHtSGM4D59A"
+  },
+  {
+   "interest": "science",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "Science Friday",
+   "feed": "https://feeds.feedburner.com/science-friday"
+  },
+  {
+   "interest": "science",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "StarTalk Radio",
+   "feed": "https://feeds.simplecast.com/4T39_jAj"
+  },
+  {
+   "interest": "science",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "Radiolab",
+   "feed": "https://feeds.feedburner.com/radiolab"
+  },
+  {
+   "interest": "science",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "Short Wave",
+   "feed": "https://feeds.npr.org/510351/podcast.xml"
+  },
+  {
+   "interest": "health",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "NPR Health",
+   "site": "npr.org",
+   "feed": "https://feeds.npr.org/1128/rss.xml"
+  },
+  {
+   "interest": "health",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "WHO News",
+   "site": "who.int",
+   "feed": "https://www.who.int/rss-feeds/news-english.xml"
+  },
+  {
+   "interest": "health",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "The Guardian Health",
+   "site": "theguardian.com",
+   "feed": "https://www.theguardian.com/society/health/rss"
+  },
+  {
+   "interest": "health",
+   "type": "web",
+   "language": "en",
+   "priority": 6,
+   "name": "ScienceDaily Health",
+   "site": "sciencedaily.com",
+   "feed": "https://www.sciencedaily.com/rss/health_medicine.xml"
+  },
+  {
+   "interest": "health",
+   "type": "web",
+   "language": "ar",
+   "priority": 3,
+   "name": "منظمة الصحة العالمية",
+   "site": "who.int",
+   "feed": "https://www.who.int/rss-feeds/news-arabic.xml"
+  },
+  {
+   "interest": "health",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "Huberman Lab",
+   "handle": "@hubermanlab",
+   "id": "UC2D2CMWXMOVWx7giW1n3LIg"
+  },
+  {
+   "interest": "health",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Doctor Mike",
+   "handle": "@DoctorMike",
+   "id": "UC0QHWhjbe5fGJEPz3sVb6nw"
+  },
+  {
+   "interest": "health",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Mayo Clinic",
+   "handle": "@mayoclinic",
+   "id": "UC8fQzKHIhSoZeSq3bwQx4mw"
+  },
+  {
+   "interest": "health",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "Huberman Lab",
+   "feed": "https://feeds.megaphone.fm/hubermanlab"
+  },
+  {
+   "interest": "health",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "Life Kit",
+   "feed": "https://feeds.npr.org/510338/podcast.xml"
+  },
+  {
+   "interest": "health",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "The Peter Attia Drive",
+   "feed": "https://peterattiadrive.libsyn.com/rss"
+  },
+  {
+   "interest": "gaming",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "PC Gamer",
+   "site": "pcgamer.com",
+   "feed": "https://www.pcgamer.com/rss/"
+  },
+  {
+   "interest": "gaming",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "Polygon",
+   "site": "polygon.com",
+   "feed": "https://www.polygon.com/rss/index.xml"
+  },
+  {
+   "interest": "gaming",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "Eurogamer",
+   "site": "eurogamer.net",
+   "feed": "https://www.eurogamer.net/feed"
+  },
+  {
+   "interest": "gaming",
+   "type": "web",
+   "language": "en",
+   "priority": 6,
+   "name": "Rock Paper Shotgun",
+   "site": "rockpapershotgun.com",
+   "feed": "https://www.rockpapershotgun.com/feed"
+  },
+  {
+   "interest": "gaming",
+   "type": "web",
+   "language": "ar",
+   "priority": 1,
+   "name": "تروجيمنج",
+   "site": "true-gaming.net",
+   "feed": "https://www.true-gaming.net/home/feed/"
+  },
+  {
+   "interest": "gaming",
+   "type": "web",
+   "language": "ar",
+   "priority": 3,
+   "name": "IGN الشرق الأوسط",
+   "site": "me.ign.com",
+   "feed": "https://me.ign.com/ar/feed.xml"
+  },
+  {
+   "interest": "gaming",
+   "type": "web",
+   "language": "ar",
+   "priority": 4,
+   "name": "VGA4A",
+   "site": "vga4a.com",
+   "feed": "https://www.vga4a.com/feed"
+  },
+  {
+   "interest": "gaming",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "IGN",
+   "handle": "@IGN",
+   "id": "UCKy1dAqELo0zrOtPkf0eTMw"
+  },
+  {
+   "interest": "gaming",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "GameSpot",
+   "handle": "@gamespot",
+   "id": "UCbu2SsF-Or3Rsn3NxqODImw"
+  },
+  {
+   "interest": "gaming",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Digital Foundry",
+   "handle": "@digitalfoundry",
+   "id": "UC9PBzalIcEQCsiIkq36PyUA"
+  },
+  {
+   "interest": "gaming",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "Game Maker's Toolkit",
+   "handle": "@GMTK",
+   "id": "UCqJ-Xo29CKyLTjn6z2XwYAw"
+  },
+  {
+   "interest": "gaming",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "تروجيمنج",
+   "handle": "@truegaming",
+   "id": "UCGGZeFmSAUNJShVDlXGLtXQ"
+  },
+  {
+   "interest": "gaming",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 2,
+   "name": "IGN الشرق الأوسط",
+   "handle": "@IGNMiddleEast",
+   "id": "UCou2VMOpzaVtUrLxZ34IHIw"
+  },
+  {
+   "interest": "gaming",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 3,
+   "name": "VGA4A",
+   "handle": "@VGA4A2",
+   "id": "UCJWIMH12DxtsJZL3u0afHYA"
+  },
+  {
+   "interest": "gaming",
+   "type": "podcast",
+   "language": "en",
+   "priority": 3,
+   "name": "Triple Click",
+   "feed": "https://feeds.simplecast.com/6WD3bDj7"
+  },
+  {
+   "interest": "gaming",
+   "type": "podcast",
+   "language": "en",
+   "priority": 4,
+   "name": "Retronauts",
+   "feed": "https://retronauts.libsyn.com/rss"
+  },
+  {
+   "interest": "entertainment",
+   "type": "web",
+   "language": "en",
+   "priority": 1,
+   "name": "Variety",
+   "site": "variety.com",
+   "feed": "https://variety.com/feed/"
+  },
+  {
+   "interest": "entertainment",
+   "type": "web",
+   "language": "en",
+   "priority": 2,
+   "name": "The Hollywood Reporter",
+   "site": "hollywoodreporter.com",
+   "feed": "https://www.hollywoodreporter.com/feed/"
+  },
+  {
+   "interest": "entertainment",
+   "type": "web",
+   "language": "en",
+   "priority": 3,
+   "name": "Rolling Stone",
+   "site": "rollingstone.com",
+   "feed": "https://www.rollingstone.com/feed/"
+  },
+  {
+   "interest": "entertainment",
+   "type": "web",
+   "language": "en",
+   "priority": 4,
+   "name": "Pitchfork",
+   "site": "pitchfork.com",
+   "feed": "https://pitchfork.com/feed/feed-news/rss"
+  },
+  {
+   "interest": "entertainment",
+   "type": "web",
+   "language": "en",
+   "priority": 5,
+   "name": "Deadline",
+   "site": "deadline.com",
+   "feed": "https://deadline.com/feed/"
+  },
+  {
+   "interest": "entertainment",
+   "type": "web",
+   "language": "en",
+   "priority": 6,
+   "name": "The Guardian Culture",
+   "site": "theguardian.com",
+   "feed": "https://www.theguardian.com/culture/rss"
+  },
+  {
+   "interest": "entertainment",
+   "type": "web",
+   "language": "ar",
+   "priority": 3,
+   "name": "سيدتي",
+   "site": "sayidaty.net",
+   "feed": "https://www.sayidaty.net/rss.xml"
+  },
+  {
+   "interest": "entertainment",
+   "type": "youtube",
+   "language": "en",
+   "priority": 1,
+   "name": "IGN Movies and TV",
+   "handle": "@IGN",
+   "id": "UCKy1dAqELo0zrOtPkf0eTMw"
+  },
+  {
+   "interest": "entertainment",
+   "type": "youtube",
+   "language": "en",
+   "priority": 2,
+   "name": "Netflix",
+   "handle": "@Netflix",
+   "id": "UCWOA1ZGywLbqmigxE4Qlvuw"
+  },
+  {
+   "interest": "entertainment",
+   "type": "youtube",
+   "language": "en",
+   "priority": 3,
+   "name": "Rotten Tomatoes",
+   "handle": "@RottenTomatoes",
+   "id": "UCE0Wkd9Jcn2-TNo5G8bLQrA"
+  },
+  {
+   "interest": "entertainment",
+   "type": "youtube",
+   "language": "en",
+   "priority": 4,
+   "name": "Vanity Fair",
+   "handle": "@VanityFair",
+   "id": "UCIsbLox_y9dCIMLd8tdC6qg"
+  },
+  {
+   "interest": "entertainment",
+   "type": "youtube",
+   "language": "ar",
+   "priority": 1,
+   "name": "سيدتي",
+   "handle": "@sayidaty",
+   "id": "UCOSMJgnSejyeuyPAY4T6wiQ"
+  },
+  {
+   "interest": "entertainment",
+   "type": "podcast",
+   "language": "en",
+   "priority": 1,
+   "name": "The Rewatchables",
+   "feed": "https://feeds.megaphone.fm/the-rewatchables"
+  },
+  {
+   "interest": "entertainment",
+   "type": "podcast",
+   "language": "en",
+   "priority": 2,
+   "name": "Pop Culture Happy Hour",
+   "feed": "https://feeds.npr.org/510282/podcast.xml"
+  }
+ ],
+ "sig": "KUmBtjXhDpErmxVhLpN+ON9Kame3AIOgIXqyUlO8fxcC6Px01klWcuwy2rW9PYDxknADZmD1aRVSScsSJz8MCw=="
+}
