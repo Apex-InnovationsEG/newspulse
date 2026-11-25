@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="The NewsPulse logo and app icon: the files, for a light or a dark ground.">
+<title>NewsPulse logo</title>
+<link rel="icon" type="image/svg+xml" href="../logo/icon.svg">
+<link rel="icon" type="image/svg+xml" sizes="32x32" href="../logo/icon-32.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* 0.7.7 (the first public release): the logo page, in the privacy page's style. The files are brand/'s own copies
+   (rule R5; brand/make_brand.py writes them here too). */
+:root {
+  --paper: #F7F5EF;
+  --card: #FFFFFF;
+  --ink: #141414;
+  --muted: #45454D;
+  --line: #E6E3DA;
+  --feed: #FFD23F;
+  --events: #FF7A59;
+  --topics: #2EC4B6; --topics-deep: #0B675E;
+  --brand: #C62828;
+  --night: #141414; --night-text: #E9E6DC;
+  --display: "Archivo", "Arial Black", system-ui, sans-serif;
+  --body: "Public Sans", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+a { color: var(--ink); }
+a:focus-visible { outline: 3px solid var(--topics-deep); outline-offset: 3px; border-radius: 6px; }
+h1, h2 { font-family: var(--display); text-wrap: balance; margin: 0; }
+p { margin: 0; }
+.wrap { max-width: 1200px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.band { border-bottom: 2px solid var(--ink); }
+.nav { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px; padding-block: 16px; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo-mark { display: inline-flex; width: 38px; height: 38px; }
+.logo-word { font-family: var(--display); font-weight: 900; font-size: 24px; }
+.logo-word span { color: var(--brand); }
+.nav-links { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-left: auto; font-weight: 600; }
+.head { padding-block: 56px 48px; display: flex; flex-direction: column; gap: 16px; }
+.head h1 { font-weight: 900; font-size: clamp(36px, 6vw, 58px); line-height: 1.05; letter-spacing: -0.02em; }
+.hl { background: var(--feed); padding: 0 8px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.lede { max-width: 36em; font-size: 19px; color: var(--muted); }
+.meta { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.doc { max-width: 860px; padding-block: 48px 64px; display: flex; flex-direction: column; gap: 24px; }
+.card { padding: 24px; background: var(--card); border: 2px solid var(--ink); border-radius: 14px; box-shadow: 6px 6px 0 var(--ink); display: flex; flex-direction: column; gap: 12px; }
+.card h2 { display: flex; align-items: center; gap: 10px; padding-bottom: 10px; border-bottom: 3px solid; font-weight: 800; font-size: 22px; }
+.card ul { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+.card p, .card li { color: var(--muted); }
+.card strong { color: var(--ink); }
+.tag { display: inline-block; width: 14px; height: 14px; border-radius: 3px; border: 2px solid var(--ink); transform: rotate(12deg); flex: 0 0 auto; }
+code { font-family: var(--mono); font-size: 14px; overflow-wrap: anywhere; background: var(--paper); padding: 2px 6px; border-radius: 6px; border: 1px solid var(--line); }
+.night { background: var(--night); color: #FFFFFF; }
+.night .doc { padding-block: 40px; }
+.night p { color: var(--night-text); }
+.night a { color: #FFFFFF; }
+.night h2 { font-weight: 900; font-size: clamp(26px, 4vw, 36px); }
+.night h2 span { color: var(--feed); }
+footer .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; padding-block: 30px; }
+footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px; font-weight: 600; }
+.small { font-size: 14px; color: var(--muted); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+.tile { display: grid; place-items: center; min-height: 170px; padding: 28px; border: 2px solid var(--ink); border-radius: 12px; }
+.tile img { max-width: 100%; height: auto; }
+.tile--light { background: var(--card); }
+.tile--dark { background: var(--night); }
+.sizes { display: flex; flex-wrap: wrap; align-items: end; gap: 28px; }
+.sizes figure { margin: 0; display: grid; justify-items: center; gap: 8px; }
+.sizes figcaption { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.files { list-style: none; padding: 0 !important; }
+.files a { font-weight: 600; }
+</style>
+</head>
+<body>
+<header class="band">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="logo" href="../">
+      <span class="logo-mark"><svg width="38" height="38" viewBox="0 0 24 24" aria-hidden="true"><rect x="0.5" y="0.5" width="23" height="23" rx="5.3" fill="#FFFFFF" stroke="#D5D9E0"/><g fill="none" stroke="#D92D20" stroke-width="2.31" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.2 4.2) scale(0.65)"><path d="M2 5h4c3.5 0 3 7 6.5 7"/><path d="M2 9.67h4c3 0 3 2.33 6.5 2.33"/><path d="M2 14.33h4c3 0 3-2.33 6.5-2.33"/><path d="M2 19h4c3.5 0 3-7 6.5-7"/><path d="M12.5 12h1l1.75-5.5 2.5 11 1.75-5.5h2.5"/></g></svg></span>
+      <span class="logo-word">News<span>Pulse</span></span>
+    </a>
+    <div class="nav-links"><a href="../">NewsPulse home</a><a href="../#download">Download</a></div>
+  </nav>
+</header>
+
+<main>
+  <section class="band">
+    <div class="wrap head">
+      <h1>The NewsPulse <span class="hl">logo</span></h1>
+      <p class="lede">A white tile with a grey edge and a red mark: four source strands run in side by side and merge into one line that peaks once. Many platforms, one feed.</p>
+    </div>
+  </section>
+
+  <div class="wrap doc">
+    <section class="card" aria-labelledby="full">
+      <h2 id="full"><i class="tag" style="background:var(--feed)"></i>The logo</h2>
+      <div class="tiles">
+        <div class="tile tile--light"><img src="logo-light.svg" alt="NewsPulse logo for a light ground" width="320"></div>
+        <div class="tile tile--dark"><img src="logo-dark.svg" alt="NewsPulse logo for a dark ground" width="320"></div>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="icon">
+      <h2 id="icon"><i class="tag" style="background:var(--topics)"></i>The app icon</h2>
+      <div class="sizes">
+        <figure><img src="icon.svg" alt="NewsPulse icon, 128 pixels" width="128" height="128"><figcaption>128 px</figcaption></figure>
+        <figure><img src="icon.svg" alt="NewsPulse icon, 64 pixels" width="64" height="64"><figcaption>64 px</figcaption></figure>
+        <figure><img src="icon-32.svg" alt="NewsPulse icon, 32 pixels" width="32" height="32"><figcaption>32 px</figcaption></figure>
+        <figure><img src="icon-16.svg" alt="NewsPulse icon, 16 pixels" width="16" height="16"><figcaption>16 px</figcaption></figure>
+      </div>
+      <p>The two small sizes are drawn for their size, not shrunk.</p>
+    </section>
+
+    <section class="card" aria-labelledby="files">
+      <h2 id="files"><i class="tag" style="background:var(--events)"></i>The files</h2>
+      <ul class="files">
+        <li><a href="logo-light.svg" download>logo-light.svg</a>: the logo, for a light ground</li>
+        <li><a href="logo-dark.svg" download>logo-dark.svg</a>: the logo, for a dark ground</li>
+        <li><a href="icon.svg" download>icon.svg</a>, <a href="icon-32.svg" download>icon-32.svg</a>, <a href="icon-16.svg" download>icon-16.svg</a>: the icon, and its 32 and 16 px drawings</li>
+      </ul>
+      <p>Please use them as they are: don't change the colours, stretch them or add to them.</p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="logo-word" style="font-size:20px">News<span>Pulse</span></span>
+    <span class="small">© 2026 <a href="https://apex-innovationseg.github.io/">Apex Innovations</a></span>
+    <div class="links"><a href="../">Home</a><a href="../#download">Download</a><a href="../privacy/">Privacy</a></div>
+  </div>
+</footer>
+</body>
+</html>

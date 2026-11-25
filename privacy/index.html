@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="NewsPulse privacy policy: what the app keeps on your PC, what it sends to your own Google Drive (encrypted), and how to delete it.">
 <title>NewsPulse privacy policy</title>
+<link rel="icon" type="image/svg+xml" href="../logo/icon.svg">
+<link rel="icon" type="image/svg+xml" sizes="32x32" href="../logo/icon-32.svg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
 /* Run 5 batch 16, phase 0: the privacy policy, in the NewsPulse page's style (website/index.html): neo-brutalist
@@ -35,7 +37,7 @@ p { margin: 0; }
 .band { border-bottom: 2px solid var(--ink); }
 .nav { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px; padding-block: 16px; }
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-.logo-mark { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 9px; border: 2px solid var(--ink); background: var(--feed); box-shadow: 2px 2px 0 var(--ink); }
+.logo-mark { display: inline-flex; width: 38px; height: 38px; }
 .logo-word { font-family: var(--display); font-weight: 900; font-size: 24px; }
 .logo-word span { color: var(--brand); }
 .nav-links { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-left: auto; font-weight: 600; }
@@ -67,7 +69,7 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
 <header class="band">
   <nav class="wrap nav" aria-label="Main">
     <a class="logo" href="../">
-      <span class="logo-mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></span>
+      <span class="logo-mark"><svg width="38" height="38" viewBox="0 0 24 24" aria-hidden="true"><rect x="0.5" y="0.5" width="23" height="23" rx="5.3" fill="#FFFFFF" stroke="#D5D9E0"/><g fill="none" stroke="#D92D20" stroke-width="2.31" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.2 4.2) scale(0.65)"><path d="M2 5h4c3.5 0 3 7 6.5 7"/><path d="M2 9.67h4c3 0 3 2.33 6.5 2.33"/><path d="M2 14.33h4c3 0 3-2.33 6.5-2.33"/><path d="M2 19h4c3.5 0 3-7 6.5-7"/><path d="M12.5 12h1l1.75-5.5 2.5 11 1.75-5.5h2.5"/></g></svg></span>
       <span class="logo-word">News<span>Pulse</span></span>
     </a>
     <div class="nav-links"><a href="../">NewsPulse home</a><a href="../#download">Download</a></div>
@@ -128,6 +130,8 @@ footer .links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px 22px
         <li><strong>Pro:</strong> your licence key, so the server can check it, a hash of this PC's machine ID and this PC's name, so you can tell your PCs apart on the Licence page. The server keeps the key's ID (never the key itself), its plan and dates, and for each PC its hash, name, when it was activated and when it last checked (about every 30 days).</li>
         <li><strong>Never:</strong> your name, email, setup, posts or anything from your feed. The server doesn't keep your network address; it counts requests by a hash of it to stop abuse.</li>
       </ul>
+      <p><strong>Your Daily 5:</strong> this Pro feature is off until you add your own AI key. Then, once a day, your PC sends the provider you chose the titles, sources and topics of about 40 recent posts, with your topic names and the sources you save from most. It goes straight from your PC with your key and never through our server. What the provider does with it is under its own privacy rules, and a free tier may use it to improve its products.</p>
+      <p><strong>Invites:</strong> if you open Invite friends or use a friend's code, the server keeps the code, the same hashes of your PC and account, and the dates. It never learns who you invited, or any name or email address.</p>
       <p>Keys locked to PC codes are checked on the PC and never reach the server. To have a key's or trial's record removed, email us.</p>
     </section>
 

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>You're invited · NewsPulse</title>
+  <link rel="icon" type="image/svg+xml" href="../logo/icon.svg">
+  <link rel="icon" type="image/svg+xml" sizes="32x32" href="../logo/icon-32.svg">
+  <style>
+    :root { color-scheme: light dark; --bg: #fff; --text: #16161d; --muted: #5c5c6b; --line: #d5d9e0; --red: #d92d20; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #15151c; --text: #f3f3f7; --muted: #a9a9b8; --line: #3a3a46; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 system-ui, "Segoe UI", sans-serif; }
+    main { max-width: 34rem; margin: 0 auto; padding: 4rem 1rem; }
+    h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .75rem; }
+    p { color: var(--muted); }
+    .code { display: block; margin: 1.5rem 0; padding: 1rem; border: 1px solid var(--line); border-radius: 12px; font: 600 1.6rem ui-monospace, Consolas, monospace; letter-spacing: .05em; text-align: center; color: var(--text); }
+    a.get { color: var(--red); font-weight: 600; }
+    ol { padding-inline-start: 1.25rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>A friend invited you to NewsPulse</h1>
+    <p>Your own news, from the sources you choose, on your own PC.</p>
+    <code class="code" id="code" hidden></code>
+    <ol>
+      <li><a class="get" href="../">Get NewsPulse for Windows</a>.</li>
+      <li>On the Pro trial step, choose <strong>Have an invite code?</strong> and type the code.</li>
+      <li>Your free trial is longer, and your friend gets some days of Pro too. No card needed.</li>
+    </ol>
+  </main>
+  <script>
+    /* the code only reads and shows: nothing is sent anywhere */
+    var code = new URLSearchParams(location.search).get("code") || "";
+    if (/^[2-9A-HJ-NP-Z]{4}-[2-9A-HJ-NP-Z]{4}$/.test(code)) {
+      var box = document.getElementById("code");
+      box.textContent = code;
+      box.hidden = false;
+    }
+  </script>
+</body>
+</html>
